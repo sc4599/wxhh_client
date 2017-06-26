@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game_res/70902800/head/Card_back.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,370},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/head_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{276,370}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{276,370}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,732},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{268,370},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{362,732},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{276,0},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{536,362},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+			<key>game_res/70902800/head/girl_006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{544,0},{268,362}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,362}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>PlistHead.png</string>
+			<key>realTextureFileName</key>
+			<string>PlistHead.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
