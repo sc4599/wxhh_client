@@ -1,0 +1,12 @@
+*.py[co]
+env/
+.idea/
+.DS_Store
+*.cfg
+logs/
+csmj/.wing
+csmj/index.html
+csmj/template/*
+bin-debug/
+csmj/bin-release/
+/libs/
