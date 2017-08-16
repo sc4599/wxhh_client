@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="login_bg_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
