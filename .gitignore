@@ -4,9 +4,9 @@ env/
 .DS_Store
 *.cfg
 logs/
-csmj/.wing
-csmj/index.html
-csmj/template/*
+.wing/
+index.html
+template/
 bin-debug/
-csmj/bin-release/
-/libs/
+bin-release/
+libs/
