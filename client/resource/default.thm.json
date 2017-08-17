@@ -16,6 +16,7 @@
   },
   "autoGenerateExmlsList": true,
   "exmls": [
+    "resource/skin/panel/LoginPanelSkin.exml",
     "resource/skin/scene/LoginSceneSkin.exml"
   ]
 }

@@ -8,4 +8,12 @@ class LoginScene extends BaseScene {
         super();
         this.skinName = "LoginSceneSkin";
 	}
+
+    public onEnable() {
+        PanelManager.Instance.show(PanelConst.LoginPanel);
+    }
+
+    public onRemove() {
+        PanelManager.Instance.hide(PanelConst.LoginPanel);
+    }
 }

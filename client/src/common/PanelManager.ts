@@ -3,12 +3,16 @@
  * @date 2017-08-15
  */
 enum PanelConst {
-	
+	/**login */
+	LoginPanel
 }
 
 class PanelManager{
+	private panelString = [
+        "LoginPanel"
+    ]
 	private panelConfig = [
-		
+		LoginPanel
 	]
     private panelList = {};
     private panelClassList = {};
@@ -17,9 +21,12 @@ class PanelManager{
     public static get Instance():PanelManager {
         if (!PanelManager._instance) {
             PanelManager._instance = new PanelManager;
-			PanelManager._instance.init();
         }
         return PanelManager._instance;
+    }
+
+	public constructor() {
+        this.init()
     }
 	
 	/**
@@ -27,7 +34,7 @@ class PanelManager{
      */ 
     public init(){
 		for(var i = 0;i < this.panelConfig.length;i ++) {
-			this.panelClassList[PanelConst[i]] = this.panelConfig[i];
+			this.panelClassList[PanelConst[this.panelString[i]]] = this.panelConfig[i];
 		}
  	}
  	

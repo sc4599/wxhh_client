@@ -1,8 +1,12 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,btn_close_png,clockCircle_png,login_bg_png,login_layer_png,register_layer_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png",
 			"name": "preload"
+		},
+		{
+			"keys": "register_layer_png,PlistLogin_json,login_layer_png,login_bg_png",
+			"name": "login"
 		}
 	],
 	"resources": [
@@ -35,6 +39,17 @@
 			"url": "assets/Asource/login/register_layer.png",
 			"type": "image",
 			"name": "register_layer_png"
+		},
+		{
+			"url": "assets/Asource/login/PlistLogin.json",
+			"type": "sheet",
+			"name": "PlistLogin_json",
+			"subkeys": "btn_acount_login,btn_back,btn_close,btn_login,btn_register,btn_register_ok,btn_visitors_login"
+		},
+		{
+			"url": "assets/Asource/common/tips_bg.png",
+			"type": "image",
+			"name": "tips_bg_png"
 		}
 	]
 }

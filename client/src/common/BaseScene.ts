@@ -1,8 +1,8 @@
 /**
- * 场景基类
- * @author chenkai 
- * @date 2016/6/27
+ * @author svenballet 
+ * @date 2017-08-16
  */
+
 class BaseScene extends BaseUI{
 
 	public constructor() {
