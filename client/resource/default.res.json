@@ -7,6 +7,14 @@
 		{
 			"keys": "register_layer_png,PlistLogin_json,login_layer_png,login_bg_png",
 			"name": "login"
+		},
+		{
+			"keys": "room_3_png,room_2_png,room_1_png,room_1_2_png,hall_bg_png,game_icon_png,game_icon_2_png",
+			"name": "hall"
+		},
+		{
+			"keys": "bg_sprite_png",
+			"name": "gameJd"
 		}
 	],
 	"resources": [
@@ -50,6 +58,46 @@
 			"url": "assets/Asource/common/tips_bg.png",
 			"type": "image",
 			"name": "tips_bg_png"
+		},
+		{
+			"url": "assets/Asource/hall/hall_bg.png",
+			"type": "image",
+			"name": "hall_bg_png"
+		},
+		{
+			"url": "assets/Asource/hall/game_icon.png",
+			"type": "image",
+			"name": "game_icon_png"
+		},
+		{
+			"url": "assets/Asource/hall/room_1.png",
+			"type": "image",
+			"name": "room_1_png"
+		},
+		{
+			"url": "assets/Asource/hall/room_2.png",
+			"type": "image",
+			"name": "room_2_png"
+		},
+		{
+			"url": "assets/Asource/hall/room_3.png",
+			"type": "image",
+			"name": "room_3_png"
+		},
+		{
+			"url": "assets/Asource/hall/game_icon_2.png",
+			"type": "image",
+			"name": "game_icon_2_png"
+		},
+		{
+			"url": "assets/Asource/hall/room_1_2.png",
+			"type": "image",
+			"name": "room_1_2_png"
+		},
+		{
+			"url": "assets/Asource/game/bg_sprite.png",
+			"type": "image",
+			"name": "bg_sprite_png"
 		}
 	]
 }

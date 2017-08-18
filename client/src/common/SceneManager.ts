@@ -4,16 +4,24 @@
  */
 enum SceneConst {
     /**login */
-	LoginScene
+	LoginScene,
+    /**hall */
+    HallScene,
+    /**gameJd */
+    GameSceneJd
 }
 
 class SceneManager {
 
     private sceneString = [
-        "LoginScene"
+        "LoginScene",
+        "HallScene",
+        "GameSceneJd"
     ]
     private sceneConfig = [
-		LoginScene
+		LoginScene,
+        HallScene,
+        GameSceneJd
 	];
     private curScene: BaseScene;
     public sceneList = {};

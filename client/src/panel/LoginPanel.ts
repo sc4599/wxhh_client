@@ -16,10 +16,15 @@ class LoginPanel extends BasePanel {
 
     public onEnable() {
         this.loginBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onLogin, this);
+        this.registBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onRegist, this);
     }
 
     public onRemove() {
         this.loginBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onLogin, this);
+        this.registBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onRegist, this);
+
+        this.nameEdit.text = null;
+        this.passEdit.text = null;
     }
 
     private onLogin() {
@@ -28,6 +33,12 @@ class LoginPanel extends BasePanel {
         }
         else {
             //login logic
+            SceneManager.Instance.show(SceneConst.HallScene);
         }
+    }
+
+    private onRegist() {
+        this.hide();
+        PanelManager.Instance.show(PanelConst.RegistPanel);
     }
 }

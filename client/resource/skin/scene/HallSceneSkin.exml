@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="hall_bg_png"/>
+	<e:Group width="268" height="720" x="0" y="0" anchorOffsetX="0">
+        <e:Button id="wxhhBtn" label="" x="0" width="268" y="100">
+            <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="game_icon_png"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+            </e:skinName>
+        </e:Button>
+		<e:Button id="qysBtn" label="" x="0" width="268" y="300">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="game_icon_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="rightGro" width="1012" height="720" x="268" y="0">
+		<e:Group width="100%" height="100%" x="0" y="0" visible="false">
+			<e:Scroller width="100%" height="450" x="0" y="120" anchorOffsetY="0">
+				<e:Group>
+                    <e:Button id="jdBtn" label="" x="0" y="0">
+                        <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="98%" height.down="98%" source="room_1_png"/>
+                            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                        </e:Skin>
+                        </e:skinName>
+                    </e:Button>
+                    <e:Button id="djBtn" label="" x="466" y="0">
+                        <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="98%" height.down="98%" source="room_2_png"/>
+                            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                        </e:Skin>
+                        </e:skinName>
+                    </e:Button>
+                    <e:Button id="cxBtn" label="" x="932" y="0">
+                        <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="98%" height.down="98%" source="room_3_png"/>
+                            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                        </e:Skin>
+                        </e:skinName>
+                    </e:Button>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="100%" height="100%" x="0" y="0">
+            <e:Button id="qysRoomBtn" label="" x="228" y="120">
+                <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="98%" height.down="98%" source="room_1_2_png"/>
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                </e:Skin>
+                </e:skinName>
+            </e:Button>
+        </e:Group>
+	</e:Group>
+</e:Skin>
