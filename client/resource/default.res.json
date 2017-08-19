@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "btn_close_png,clockCircle_png,tips_bg_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png,PlistScene_json,PlistScene_png",
 			"name": "preload"
 		},
 		{
@@ -98,6 +98,16 @@
 			"url": "assets/Asource/game/bg_sprite.png",
 			"type": "image",
 			"name": "bg_sprite_png"
+		},
+		{
+			"name": "PlistScene_json",
+			"type": "json",
+			"url": "assets/Asource/game/PlistScene.json"
+		},
+		{
+			"name": "PlistScene_png",
+			"type": "image",
+			"url": "assets/Asource/game/PlistScene.png"
 		}
 	]
 }
