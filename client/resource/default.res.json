@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "btn_close_png,clockCircle_png,tips_bg_png,PlistScene_json,PlistScene_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png",
 			"name": "preload"
 		},
 		{
@@ -100,14 +100,10 @@
 			"name": "bg_sprite_png"
 		},
 		{
+			"url": "assets/Asource/game/PlistScene.json",
+			"type": "sheet",
 			"name": "PlistScene_json",
-			"type": "json",
-			"url": "assets/Asource/game/PlistScene.json"
-		},
-		{
-			"name": "PlistScene_png",
-			"type": "image",
-			"url": "assets/Asource/game/PlistScene.png"
+			"subkeys": "battery_1,battery_2,battery_3,battery_4,boy,btn_1,btn_1_disable,btn_1_press,btn_2,btn_2_disable,btn_2_press,btn_3,btn_3_disable,btn_3_press,btn_4,btn_4_disable,btn_4_press,btn_5,btn_5_disable,btn_5_press,btn_auto,btn_back,btn_cancel,btn_change,btn_clear,btn_continue,btn_expression,btn_login,btn_ranking,btn_recharge,btn_send,btn_setting,girl,image_timer_001,image_timer_002,image_timer_003,image_timer_1_002,notice,pone,result_bg,wan,wifi,ying"
 		}
 	]
 }
