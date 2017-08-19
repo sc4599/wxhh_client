@@ -34,8 +34,14 @@ class RegistPanel extends BasePanel {
             Tips.show("账号、昵称或密码不能为空");
         }
         else {
-            //regist logic
+            LoginLogic.Instance.regist(this.nameEdit.text, this.passEdit.text);
         }
+    }
+
+    public clearInput() {
+        this.nameEdit.text = null;
+        this.passEdit.text = null;
+        this.nickNameEdit.text = null;
     }
 
     private onBack() {

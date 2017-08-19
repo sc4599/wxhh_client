@@ -29,11 +29,15 @@ class LoginPanel extends BasePanel {
 
     private onLogin() {
         if (!this.nameEdit.text || !this.passEdit.text) {
-            Tips.show("账号或密码不能为空");
+            if (StaticConfig.Instance.testLogin) {
+                LoginLogic.Instance.login();
+            }
+            else {
+                Tips.show("账号或密码不能为空");
+            }
         }
         else {
-            //login logic
-            SceneManager.Instance.show(SceneConst.HallScene);
+            LoginLogic.Instance.login(this.nameEdit.text, this.passEdit.text);
         }
     }
 

@@ -27,7 +27,7 @@ class SceneManager {
     public sceneList = {};
     private sceneClassList = {};
 
-    public static _instance: SceneManager;
+    private static _instance: SceneManager;
     public static get Instance():SceneManager {
         if (!SceneManager._instance) {
             SceneManager._instance = new SceneManager;
@@ -67,7 +67,8 @@ class SceneManager {
                 return null;
             }
         }
-        this.curScene = nextScene;       
+        this.curScene = nextScene;
+        PanelManager.Instance.hideAll();      
         LayerManager.Instance.sceneLayer.addChild(this.curScene);
         return this.curScene;
     }

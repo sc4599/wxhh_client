@@ -58,7 +58,8 @@ class HallScene extends BaseScene {
         var target = e.target;
         switch (target) {
             case this.jdBtn:
-                SceneManager.Instance.show(SceneConst.GameSceneJd);
+                // SceneManager.Instance.show(SceneConst.GameSceneJd);
+                HallLogic.Instance.enterJd();
                 break;
             default:
                 Tips.show("敬请期待");

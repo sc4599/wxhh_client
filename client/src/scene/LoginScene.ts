@@ -7,13 +7,12 @@ class LoginScene extends BaseScene {
     public constructor() {
         super();
         this.skinName = "LoginSceneSkin";
+        LoginLogic.Instance.connectServer();
 	}
 
     public onEnable() {
-        PanelManager.Instance.show(PanelConst.LoginPanel);
     }
 
     public onRemove() {
-        PanelManager.Instance.hide(PanelConst.LoginPanel);
     }
 }

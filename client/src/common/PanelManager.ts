@@ -21,7 +21,7 @@ class PanelManager{
     private panelList = {};
     private panelClassList = {};
 
-    public static _instance: PanelManager;
+    private static _instance: PanelManager;
     public static get Instance():PanelManager {
         if (!PanelManager._instance) {
             PanelManager._instance = new PanelManager;
