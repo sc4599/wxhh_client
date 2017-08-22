@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecordListSkin" width="630" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="recordGro" height="250" x="0" y="0" width="630">
+		<e:Image source="Card_1_02_png" x="35" y="28"/>
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="5" horizontalGap="4" paddingRight="5" paddingTop="5" paddingBottom="5" verticalGap="8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="movieGro" width="100%" height="100%" x="0" y="0"/>
+</e:Skin>

@@ -128,6 +128,10 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected startApp(): void {
+        if (StaticConfig.Instance.skipToGame) {
+            SceneManager.Instance.show(SceneConst.GameSceneJd);
+            return;
+        }
         SceneManager.Instance.show(SceneConst.LoginScene);
     }
 }

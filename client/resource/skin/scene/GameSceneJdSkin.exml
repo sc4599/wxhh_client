@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="GameSceneJdSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Image source="bg_sprite_png" horizontalCenter="0" verticalCenter="0"/>
-	<ns1:BetBtn x="335" y="565" skinName="BetBtnSkin"/>
+	<ns1:RecordList id="recordMod" x="328" y="200" skinName="RecordListSkin"/>
+	<ns1:BetBtn id="betMod" x="335" y="565" skinName="BetBtnSkin"/>
 	<e:Button id="loginBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="5" y="5">
         <e:skinName>
         <e:Skin states="up,down,disabled">
@@ -34,5 +35,5 @@
         </e:Skin>
         </e:skinName>
     </e:Button>
-	<e:Image source="01_png" x="571.61" y="496.92"/>
+	<e:Image source="01_png" x="572" y="496"/>
 </e:Skin>

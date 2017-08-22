@@ -98,7 +98,6 @@ class BitmapMovie extends egret.Bitmap{
 		}
 		this.bitmapData = this.bmdList[this.curFrame];
 		this.curFrame++;
-		console.log("curFrame==", this.curFrame);
 	}
 
 	/**

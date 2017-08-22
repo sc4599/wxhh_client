@@ -4,6 +4,8 @@
  */
 
 class StaticConfig {
+    /**直接跳转到游戏界面 */
+    public skipToGame:boolean;
     /**是否用默认账号登录 */
     public testLogin:boolean;
 
@@ -17,6 +19,7 @@ class StaticConfig {
 
     public constructor() {
         this.testLogin = true;
+        this.skipToGame = true;
     }
 
     /**

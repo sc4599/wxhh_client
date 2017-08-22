@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "btn_close_png,clockCircle_png,tips_bg_png,cardBg_1_png,cardBg_2_png,cardBg_3_png,cardBg_4_png,cardBg_5_png,cardBg_6_png,cardBg_7_png,cardBg_8_png,cardBg_9_png,cardBg_10_png,cardBg_11_png,cardBg_12_png,cardBg_13_png,cardBg_14_png,cardBg_15_png,cardBg_16_png,cardBg_17_png,cardBg_18_png,cardBg_19_png,cardBg_20_png,cardBg_21_png,cardBg_22_png,cardBg_23_png,cardBg_24_png,cardBg_25_png,cardBg_26_png,cardBg_27_png,cardBg_28_png,cardBg_29_png,cardBg_30_png,cardBg_31_png,cardBg_32_png,cardBg_33_png,cardBg_34_png,cardBg_35_png,cardBg_36_png,cardBg_37_png,cardBg_38_png,cardBg_39_png,cardBg_40_png,cardBg_41_png,cardBg_42_png,cardBg_43_png,cardBg_44_png,cardBg_45_png,cardBg_46_png,cardBg_47_png,cardBg_48_png,cardBg_49_png,cardBg_50_png,joker_1_png,joker_2_png,joker_3_png,joker_4_png,joker_5_png,joker_6_png,joker_7_png,joker_8_png,joker_9_png,joker_10_png,joker_11_png,joker_12_png,joker_13_png,joker_14_png,joker_15_png,joker_16_png,joker_17_png,joker_18_png,joker_19_png,joker_20_png,joker_21_png,joker_22_png,joker_23_png,joker_24_png,joker_25_png,joker_26_png,joker_27_png,joker_28_png,joker_29_png,joker_30_png,joker_31_png,joker_32_png,joker_33_png,joker_34_png,joker_35_png,joker_36_png,joker_37_png,joker_38_png,joker_39_png,joker_40_png,joker_41_png,joker_42_png,joker_43_png,joker_44_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png",
 			"name": "preload"
 		},
 		{
@@ -17,7 +17,7 @@
 			"name": "gameJd"
 		},
 		{
-			"keys": "head_frame_png,head_frame_1_png,girl_048_png,girl_047_png,girl_046_png,girl_045_png,girl_044_png,girl_043_png,girl_042_png,girl_041_png,girl_040_png,girl_039_png,girl_038_png,girl_037_png,girl_036_png,girl_035_png,girl_034_png,girl_033_png,girl_032_png,girl_031_png,girl_030_png,girl_029_png,girl_028_png,girl_027_png,girl_026_png,girl_025_png,girl_024_png,girl_023_png,girl_022_png,girl_021_png,girl_020_png,girl_019_png,girl_018_png,girl_017_png,girl_016_png,girl_015_png,girl_014_png,girl_013_png,girl_012_png,girl_011_png,girl_010_png,girl_009_png,girl_008_png,girl_007_png,girl_006_png,girl_005_png,girl_004_png,girl_003_png,girl_002_png,girl_001_png,Card_back_png,Card_king_02_png,Card_king_01_png,Card_4_13_png,Card_4_12_png,Card_4_11_png,Card_4_10_png,Card_4_09_png,Card_4_08_png,Card_4_07_png,Card_4_06_png,Card_4_05_png,Card_4_04_png,Card_4_03_png,Card_4_02_png,Card_4_01_png,Card_3_13_png,Card_3_12_png,Card_3_11_png,Card_3_10_png,Card_3_09_png,Card_3_08_png,Card_3_07_png,Card_3_06_png,Card_3_05_png,Card_3_04_png,Card_3_03_png,Card_3_02_png,Card_3_01_png,Card_2_13_png,Card_2_12_png,Card_2_11_png,Card_2_10_png,Card_2_09_png,Card_2_08_png,Card_2_07_png,Card_2_06_png,Card_2_05_png,Card_2_04_png,Card_2_03_png,Card_2_02_png,Card_2_01_png,Card_1_13_png,Card_1_12_png,Card_1_11_png,Card_1_10_png,Card_1_09_png,Card_1_08_png,Card_1_07_png,Card_1_06_png,Card_1_05_png,Card_1_04_png,Card_1_03_png,Card_1_02_png,Card_1_01_png",
+			"keys": "head_frame_png,head_frame_1_png,girl_048_png,girl_047_png,girl_046_png,girl_045_png,girl_044_png,girl_043_png,girl_042_png,girl_041_png,girl_040_png,girl_039_png,girl_038_png,girl_037_png,girl_036_png,girl_035_png,girl_034_png,girl_033_png,girl_032_png,girl_031_png,girl_030_png,girl_029_png,girl_028_png,girl_027_png,girl_026_png,girl_025_png,girl_024_png,girl_023_png,girl_022_png,girl_021_png,girl_020_png,girl_019_png,girl_018_png,girl_017_png,girl_016_png,girl_015_png,girl_014_png,girl_013_png,girl_012_png,girl_011_png,girl_010_png,girl_009_png,girl_008_png,girl_007_png,girl_006_png,girl_005_png,girl_004_png,girl_003_png,girl_002_png,girl_001_png,Card_back_png,Card_4_13_png,Card_4_12_png,Card_4_11_png,Card_4_10_png,Card_4_09_png,Card_4_08_png,Card_4_07_png,Card_4_06_png,Card_4_05_png,Card_4_04_png,Card_4_03_png,Card_4_02_png,Card_4_01_png,Card_3_13_png,Card_3_12_png,Card_3_11_png,Card_3_10_png,Card_3_09_png,Card_3_08_png,Card_3_07_png,Card_3_06_png,Card_3_05_png,Card_3_04_png,Card_3_03_png,Card_3_02_png,Card_3_01_png,Card_2_13_png,Card_2_12_png,Card_2_11_png,Card_2_10_png,Card_2_09_png,Card_2_08_png,Card_2_07_png,Card_2_06_png,Card_2_05_png,Card_2_04_png,Card_2_03_png,Card_2_02_png,Card_2_01_png,Card_1_13_png,Card_1_12_png,Card_1_11_png,Card_1_10_png,Card_1_09_png,Card_1_08_png,Card_1_07_png,Card_1_06_png,Card_1_05_png,Card_1_04_png,Card_1_03_png,Card_1_02_png,Card_1_01_png",
 			"name": "card"
 		}
 	],
@@ -544,16 +544,6 @@
 			"name": "Card_4_13_png"
 		},
 		{
-			"url": "assets/Asource/game/PlistCard/Card_king_01.png",
-			"type": "image",
-			"name": "Card_king_01_png"
-		},
-		{
-			"url": "assets/Asource/game/PlistCard/Card_king_02.png",
-			"type": "image",
-			"name": "Card_king_02_png"
-		},
-		{
 			"url": "assets/Asource/game/head/head_frame.png",
 			"type": "image",
 			"name": "head_frame_png"
@@ -989,474 +979,2089 @@
 			"name": "01_png"
 		},
 		{
-			"name": "cardBg_1_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_1.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_1.png"
+			"name": "cardBg_1_png"
 		},
 		{
-			"name": "cardBg_2_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_2.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_2.png"
+			"name": "cardBg_2_png"
 		},
 		{
-			"name": "cardBg_3_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_3.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_3.png"
+			"name": "cardBg_3_png"
 		},
 		{
-			"name": "cardBg_4_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_4.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_4.png"
+			"name": "cardBg_4_png"
 		},
 		{
-			"name": "cardBg_5_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_5.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_5.png"
+			"name": "cardBg_5_png"
 		},
 		{
-			"name": "cardBg_6_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_6.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_6.png"
+			"name": "cardBg_6_png"
 		},
 		{
-			"name": "cardBg_7_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_7.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_7.png"
+			"name": "cardBg_7_png"
 		},
 		{
-			"name": "cardBg_8_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_8.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_8.png"
+			"name": "cardBg_8_png"
 		},
 		{
-			"name": "cardBg_9_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_9.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_9.png"
+			"name": "cardBg_9_png"
 		},
 		{
-			"name": "cardBg_10_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_10.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_10.png"
+			"name": "cardBg_10_png"
 		},
 		{
-			"name": "cardBg_11_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_11.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_11.png"
+			"name": "cardBg_11_png"
 		},
 		{
-			"name": "cardBg_12_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_12.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_12.png"
+			"name": "cardBg_12_png"
 		},
 		{
-			"name": "cardBg_13_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_13.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_13.png"
+			"name": "cardBg_13_png"
 		},
 		{
-			"name": "cardBg_14_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_14.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_14.png"
+			"name": "cardBg_14_png"
 		},
 		{
-			"name": "cardBg_15_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_15.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_15.png"
+			"name": "cardBg_15_png"
 		},
 		{
-			"name": "cardBg_16_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_16.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_16.png"
+			"name": "cardBg_16_png"
 		},
 		{
-			"name": "cardBg_17_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_17.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_17.png"
+			"name": "cardBg_17_png"
 		},
 		{
-			"name": "cardBg_18_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_18.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_18.png"
+			"name": "cardBg_18_png"
 		},
 		{
-			"name": "cardBg_19_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_19.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_19.png"
+			"name": "cardBg_19_png"
 		},
 		{
-			"name": "cardBg_20_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_20.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_20.png"
+			"name": "cardBg_20_png"
 		},
 		{
-			"name": "cardBg_21_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_21.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_21.png"
+			"name": "cardBg_21_png"
 		},
 		{
-			"name": "cardBg_22_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_22.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_22.png"
+			"name": "cardBg_22_png"
 		},
 		{
-			"name": "cardBg_23_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_23.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_23.png"
+			"name": "cardBg_23_png"
 		},
 		{
-			"name": "cardBg_24_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_24.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_24.png"
+			"name": "cardBg_24_png"
 		},
 		{
-			"name": "cardBg_25_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_25.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_25.png"
+			"name": "cardBg_25_png"
 		},
 		{
-			"name": "cardBg_26_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_26.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_26.png"
+			"name": "cardBg_26_png"
 		},
 		{
-			"name": "cardBg_27_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_27.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_27.png"
+			"name": "cardBg_27_png"
 		},
 		{
-			"name": "cardBg_28_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_28.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_28.png"
+			"name": "cardBg_28_png"
 		},
 		{
-			"name": "cardBg_29_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_29.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_29.png"
+			"name": "cardBg_29_png"
 		},
 		{
-			"name": "cardBg_30_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_30.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_30.png"
+			"name": "cardBg_30_png"
 		},
 		{
-			"name": "cardBg_31_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_31.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_31.png"
+			"name": "cardBg_31_png"
 		},
 		{
-			"name": "cardBg_32_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_32.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_32.png"
+			"name": "cardBg_32_png"
 		},
 		{
-			"name": "cardBg_33_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_33.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_33.png"
+			"name": "cardBg_33_png"
 		},
 		{
-			"name": "cardBg_34_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_34.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_34.png"
+			"name": "cardBg_34_png"
 		},
 		{
-			"name": "cardBg_35_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_35.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_35.png"
+			"name": "cardBg_35_png"
 		},
 		{
-			"name": "cardBg_36_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_36.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_36.png"
+			"name": "cardBg_36_png"
 		},
 		{
-			"name": "cardBg_37_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_37.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_37.png"
+			"name": "cardBg_37_png"
 		},
 		{
-			"name": "cardBg_38_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_38.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_38.png"
+			"name": "cardBg_38_png"
 		},
 		{
-			"name": "cardBg_39_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_39.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_39.png"
+			"name": "cardBg_39_png"
 		},
 		{
-			"name": "cardBg_40_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_40.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_40.png"
+			"name": "cardBg_40_png"
 		},
 		{
-			"name": "cardBg_41_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_41.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_41.png"
+			"name": "cardBg_41_png"
 		},
 		{
-			"name": "cardBg_42_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_42.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_42.png"
+			"name": "cardBg_42_png"
 		},
 		{
-			"name": "cardBg_43_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_43.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_43.png"
+			"name": "cardBg_43_png"
 		},
 		{
-			"name": "cardBg_44_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_44.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_44.png"
+			"name": "cardBg_44_png"
 		},
 		{
-			"name": "cardBg_45_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_45.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_45.png"
+			"name": "cardBg_45_png"
 		},
 		{
-			"name": "cardBg_46_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_46.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_46.png"
+			"name": "cardBg_46_png"
 		},
 		{
-			"name": "cardBg_47_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_47.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_47.png"
+			"name": "cardBg_47_png"
 		},
 		{
-			"name": "cardBg_48_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_48.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_48.png"
+			"name": "cardBg_48_png"
 		},
 		{
-			"name": "cardBg_49_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_49.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_49.png"
+			"name": "cardBg_49_png"
 		},
 		{
-			"name": "cardBg_50_png",
+			"url": "assets/Asource/game/movie/cardBg/cardBg_50.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/cardBg/cardBg_50.png"
+			"name": "cardBg_50_png"
 		},
 		{
-			"name": "joker_1_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_1.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_1.png"
+			"name": "joker_1_png"
 		},
 		{
-			"name": "joker_2_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_2.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_2.png"
+			"name": "joker_2_png"
 		},
 		{
-			"name": "joker_3_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_3.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_3.png"
+			"name": "joker_3_png"
 		},
 		{
-			"name": "joker_4_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_4.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_4.png"
+			"name": "joker_4_png"
 		},
 		{
-			"name": "joker_5_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_5.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_5.png"
+			"name": "joker_5_png"
 		},
 		{
-			"name": "joker_6_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_6.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_6.png"
+			"name": "joker_6_png"
 		},
 		{
-			"name": "joker_7_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_7.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_7.png"
+			"name": "joker_7_png"
 		},
 		{
-			"name": "joker_8_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_8.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_8.png"
+			"name": "joker_8_png"
 		},
 		{
-			"name": "joker_9_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_9.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_9.png"
+			"name": "joker_9_png"
 		},
 		{
-			"name": "joker_10_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_10.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_10.png"
+			"name": "joker_10_png"
 		},
 		{
-			"name": "joker_11_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_11.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_11.png"
+			"name": "joker_11_png"
 		},
 		{
-			"name": "joker_12_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_12.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_12.png"
+			"name": "joker_12_png"
 		},
 		{
-			"name": "joker_13_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_13.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_13.png"
+			"name": "joker_13_png"
 		},
 		{
-			"name": "joker_14_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_14.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_14.png"
+			"name": "joker_14_png"
 		},
 		{
-			"name": "joker_15_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_15.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_15.png"
+			"name": "joker_15_png"
 		},
 		{
-			"name": "joker_16_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_16.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_16.png"
+			"name": "joker_16_png"
 		},
 		{
-			"name": "joker_17_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_17.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_17.png"
+			"name": "joker_17_png"
 		},
 		{
-			"name": "joker_18_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_18.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_18.png"
+			"name": "joker_18_png"
 		},
 		{
-			"name": "joker_19_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_19.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_19.png"
+			"name": "joker_19_png"
 		},
 		{
-			"name": "joker_20_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_20.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_20.png"
+			"name": "joker_20_png"
 		},
 		{
-			"name": "joker_21_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_21.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_21.png"
+			"name": "joker_21_png"
 		},
 		{
-			"name": "joker_22_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_22.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_22.png"
+			"name": "joker_22_png"
 		},
 		{
-			"name": "joker_23_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_23.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_23.png"
+			"name": "joker_23_png"
 		},
 		{
-			"name": "joker_24_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_24.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_24.png"
+			"name": "joker_24_png"
 		},
 		{
-			"name": "joker_25_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_25.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_25.png"
+			"name": "joker_25_png"
 		},
 		{
-			"name": "joker_26_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_26.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_26.png"
+			"name": "joker_26_png"
 		},
 		{
-			"name": "joker_27_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_27.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_27.png"
+			"name": "joker_27_png"
 		},
 		{
-			"name": "joker_28_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_28.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_28.png"
+			"name": "joker_28_png"
 		},
 		{
-			"name": "joker_29_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_29.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_29.png"
+			"name": "joker_29_png"
 		},
 		{
-			"name": "joker_30_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_30.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_30.png"
+			"name": "joker_30_png"
 		},
 		{
-			"name": "joker_31_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_31.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_31.png"
+			"name": "joker_31_png"
 		},
 		{
-			"name": "joker_32_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_32.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_32.png"
+			"name": "joker_32_png"
 		},
 		{
-			"name": "joker_33_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_33.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_33.png"
+			"name": "joker_33_png"
 		},
 		{
-			"name": "joker_34_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_34.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_34.png"
+			"name": "joker_34_png"
 		},
 		{
-			"name": "joker_35_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_35.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_35.png"
+			"name": "joker_35_png"
 		},
 		{
-			"name": "joker_36_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_36.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_36.png"
+			"name": "joker_36_png"
 		},
 		{
-			"name": "joker_37_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_37.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_37.png"
+			"name": "joker_37_png"
 		},
 		{
-			"name": "joker_38_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_38.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_38.png"
+			"name": "joker_38_png"
 		},
 		{
-			"name": "joker_39_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_39.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_39.png"
+			"name": "joker_39_png"
 		},
 		{
-			"name": "joker_40_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_40.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_40.png"
+			"name": "joker_40_png"
 		},
 		{
-			"name": "joker_41_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_41.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_41.png"
+			"name": "joker_41_png"
 		},
 		{
-			"name": "joker_42_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_42.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_42.png"
+			"name": "joker_42_png"
 		},
 		{
-			"name": "joker_43_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_43.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_43.png"
+			"name": "joker_43_png"
 		},
 		{
-			"name": "joker_44_png",
+			"url": "assets/Asource/game/movie/redJoker/joker_44.png",
 			"type": "image",
-			"url": "assets/Asource/game/movie/redJoker/joker_44.png"
+			"name": "joker_44_png"
+		},
+		{
+			"url": "assets/Asource/game/01.png",
+			"type": "image",
+			"name": "012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_01.png",
+			"type": "image",
+			"name": "Card_1_012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_02.png",
+			"type": "image",
+			"name": "Card_1_022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_03.png",
+			"type": "image",
+			"name": "Card_1_032_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_04.png",
+			"type": "image",
+			"name": "Card_1_042_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_05.png",
+			"type": "image",
+			"name": "Card_1_052_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_06.png",
+			"type": "image",
+			"name": "Card_1_062_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_07.png",
+			"type": "image",
+			"name": "Card_1_072_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_08.png",
+			"type": "image",
+			"name": "Card_1_082_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_09.png",
+			"type": "image",
+			"name": "Card_1_092_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_10.png",
+			"type": "image",
+			"name": "Card_1_102_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_11.png",
+			"type": "image",
+			"name": "Card_1_112_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_12.png",
+			"type": "image",
+			"name": "Card_1_122_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_1_13.png",
+			"type": "image",
+			"name": "Card_1_132_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_01.png",
+			"type": "image",
+			"name": "Card_2_012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_02.png",
+			"type": "image",
+			"name": "Card_2_022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_03.png",
+			"type": "image",
+			"name": "Card_2_032_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_04.png",
+			"type": "image",
+			"name": "Card_2_042_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_05.png",
+			"type": "image",
+			"name": "Card_2_052_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_06.png",
+			"type": "image",
+			"name": "Card_2_062_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_07.png",
+			"type": "image",
+			"name": "Card_2_072_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_08.png",
+			"type": "image",
+			"name": "Card_2_082_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_09.png",
+			"type": "image",
+			"name": "Card_2_092_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_10.png",
+			"type": "image",
+			"name": "Card_2_102_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_11.png",
+			"type": "image",
+			"name": "Card_2_112_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_12.png",
+			"type": "image",
+			"name": "Card_2_122_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_2_13.png",
+			"type": "image",
+			"name": "Card_2_132_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_01.png",
+			"type": "image",
+			"name": "Card_3_012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_02.png",
+			"type": "image",
+			"name": "Card_3_022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_03.png",
+			"type": "image",
+			"name": "Card_3_032_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_04.png",
+			"type": "image",
+			"name": "Card_3_042_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_05.png",
+			"type": "image",
+			"name": "Card_3_052_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_06.png",
+			"type": "image",
+			"name": "Card_3_062_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_07.png",
+			"type": "image",
+			"name": "Card_3_072_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_08.png",
+			"type": "image",
+			"name": "Card_3_082_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_09.png",
+			"type": "image",
+			"name": "Card_3_092_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_10.png",
+			"type": "image",
+			"name": "Card_3_102_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_11.png",
+			"type": "image",
+			"name": "Card_3_112_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_12.png",
+			"type": "image",
+			"name": "Card_3_122_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_3_13.png",
+			"type": "image",
+			"name": "Card_3_132_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_01.png",
+			"type": "image",
+			"name": "Card_4_012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_02.png",
+			"type": "image",
+			"name": "Card_4_022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_03.png",
+			"type": "image",
+			"name": "Card_4_032_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_04.png",
+			"type": "image",
+			"name": "Card_4_042_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_05.png",
+			"type": "image",
+			"name": "Card_4_052_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_06.png",
+			"type": "image",
+			"name": "Card_4_062_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_07.png",
+			"type": "image",
+			"name": "Card_4_072_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_08.png",
+			"type": "image",
+			"name": "Card_4_082_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_09.png",
+			"type": "image",
+			"name": "Card_4_092_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_10.png",
+			"type": "image",
+			"name": "Card_4_102_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_11.png",
+			"type": "image",
+			"name": "Card_4_112_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_12.png",
+			"type": "image",
+			"name": "Card_4_122_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_4_13.png",
+			"type": "image",
+			"name": "Card_4_132_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/boy.png",
+			"type": "image",
+			"name": "boy2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_1.png",
+			"type": "image",
+			"name": "btn_12_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_1_disable.png",
+			"type": "image",
+			"name": "btn_1_disable2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_1_press.png",
+			"type": "image",
+			"name": "btn_1_press2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_2.png",
+			"type": "image",
+			"name": "btn_22_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_2_disable.png",
+			"type": "image",
+			"name": "btn_2_disable2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_2_press.png",
+			"type": "image",
+			"name": "btn_2_press2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_3.png",
+			"type": "image",
+			"name": "btn_32_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_3_disable.png",
+			"type": "image",
+			"name": "btn_3_disable2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_3_press.png",
+			"type": "image",
+			"name": "btn_3_press2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_4.png",
+			"type": "image",
+			"name": "btn_42_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_4_disable.png",
+			"type": "image",
+			"name": "btn_4_disable2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_4_press.png",
+			"type": "image",
+			"name": "btn_4_press2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_5.png",
+			"type": "image",
+			"name": "btn_52_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_5_disable.png",
+			"type": "image",
+			"name": "btn_5_disable2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_5_press.png",
+			"type": "image",
+			"name": "btn_5_press2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_auto.png",
+			"type": "image",
+			"name": "btn_auto2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_back.png",
+			"type": "image",
+			"name": "btn_back2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_cancel.png",
+			"type": "image",
+			"name": "btn_cancel2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_change.png",
+			"type": "image",
+			"name": "btn_change2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_clear.png",
+			"type": "image",
+			"name": "btn_clear2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_continue.png",
+			"type": "image",
+			"name": "btn_continue2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_expression.png",
+			"type": "image",
+			"name": "btn_expression2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_ranking.png",
+			"type": "image",
+			"name": "btn_ranking2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_recharge.png",
+			"type": "image",
+			"name": "btn_recharge2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_send.png",
+			"type": "image",
+			"name": "btn_send2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/btn_setting.png",
+			"type": "image",
+			"name": "btn_setting2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/girl.png",
+			"type": "image",
+			"name": "girl2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/image_timer_001.png",
+			"type": "image",
+			"name": "image_timer_0012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/image_timer_002.png",
+			"type": "image",
+			"name": "image_timer_0022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/image_timer_003.png",
+			"type": "image",
+			"name": "image_timer_0032_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/image_timer_1_002.png",
+			"type": "image",
+			"name": "image_timer_1_0022_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/result_bg.png",
+			"type": "image",
+			"name": "result_bg2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/wan.png",
+			"type": "image",
+			"name": "wan2_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistScene/ying.png",
+			"type": "image",
+			"name": "ying2_png"
+		},
+		{
+			"url": "assets/Asource/game/head/Card_back.png",
+			"type": "image",
+			"name": "Card_back2_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_001.png",
+			"type": "image",
+			"name": "girl_0012_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_002.png",
+			"type": "image",
+			"name": "girl_0022_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_003.png",
+			"type": "image",
+			"name": "girl_0032_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_004.png",
+			"type": "image",
+			"name": "girl_0042_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_005.png",
+			"type": "image",
+			"name": "girl_0052_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_006.png",
+			"type": "image",
+			"name": "girl_0062_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_007.png",
+			"type": "image",
+			"name": "girl_0072_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_008.png",
+			"type": "image",
+			"name": "girl_0082_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_009.png",
+			"type": "image",
+			"name": "girl_0092_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_010.png",
+			"type": "image",
+			"name": "girl_0102_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_011.png",
+			"type": "image",
+			"name": "girl_0112_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_012.png",
+			"type": "image",
+			"name": "girl_0122_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_013.png",
+			"type": "image",
+			"name": "girl_0132_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_014.png",
+			"type": "image",
+			"name": "girl_0142_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_015.png",
+			"type": "image",
+			"name": "girl_0152_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_016.png",
+			"type": "image",
+			"name": "girl_0162_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_017.png",
+			"type": "image",
+			"name": "girl_0172_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_018.png",
+			"type": "image",
+			"name": "girl_0182_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_019.png",
+			"type": "image",
+			"name": "girl_0192_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_020.png",
+			"type": "image",
+			"name": "girl_0202_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_021.png",
+			"type": "image",
+			"name": "girl_0212_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_022.png",
+			"type": "image",
+			"name": "girl_0222_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_023.png",
+			"type": "image",
+			"name": "girl_0232_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_024.png",
+			"type": "image",
+			"name": "girl_0242_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_025.png",
+			"type": "image",
+			"name": "girl_0252_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_026.png",
+			"type": "image",
+			"name": "girl_0262_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_027.png",
+			"type": "image",
+			"name": "girl_0272_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_028.png",
+			"type": "image",
+			"name": "girl_0282_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_029.png",
+			"type": "image",
+			"name": "girl_0292_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_030.png",
+			"type": "image",
+			"name": "girl_0302_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_031.png",
+			"type": "image",
+			"name": "girl_0312_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_032.png",
+			"type": "image",
+			"name": "girl_0322_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_033.png",
+			"type": "image",
+			"name": "girl_0332_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_034.png",
+			"type": "image",
+			"name": "girl_0342_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_035.png",
+			"type": "image",
+			"name": "girl_0352_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_036.png",
+			"type": "image",
+			"name": "girl_0362_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_037.png",
+			"type": "image",
+			"name": "girl_0372_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_038.png",
+			"type": "image",
+			"name": "girl_0382_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_039.png",
+			"type": "image",
+			"name": "girl_0392_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_040.png",
+			"type": "image",
+			"name": "girl_0402_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_041.png",
+			"type": "image",
+			"name": "girl_0412_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_042.png",
+			"type": "image",
+			"name": "girl_0422_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_043.png",
+			"type": "image",
+			"name": "girl_0432_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_044.png",
+			"type": "image",
+			"name": "girl_0442_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_045.png",
+			"type": "image",
+			"name": "girl_0452_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_046.png",
+			"type": "image",
+			"name": "girl_0462_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_047.png",
+			"type": "image",
+			"name": "girl_0472_png"
+		},
+		{
+			"url": "assets/Asource/game/head/girl_048.png",
+			"type": "image",
+			"name": "girl_0482_png"
+		},
+		{
+			"url": "assets/Asource/game/head/head_frame.png",
+			"type": "image",
+			"name": "head_frame2_png"
+		},
+		{
+			"url": "assets/Asource/game/head/head_frame_1.png",
+			"type": "image",
+			"name": "head_frame_12_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_1.png",
+			"type": "image",
+			"name": "cardBg_110_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_10.png",
+			"type": "image",
+			"name": "cardBg_102_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_11.png",
+			"type": "image",
+			"name": "cardBg_112_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_12.png",
+			"type": "image",
+			"name": "cardBg_122_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_13.png",
+			"type": "image",
+			"name": "cardBg_132_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_14.png",
+			"type": "image",
+			"name": "cardBg_142_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_15.png",
+			"type": "image",
+			"name": "cardBg_152_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_16.png",
+			"type": "image",
+			"name": "cardBg_162_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_17.png",
+			"type": "image",
+			"name": "cardBg_172_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_18.png",
+			"type": "image",
+			"name": "cardBg_182_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_19.png",
+			"type": "image",
+			"name": "cardBg_192_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_2.png",
+			"type": "image",
+			"name": "cardBg_210_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_20.png",
+			"type": "image",
+			"name": "cardBg_202_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_21.png",
+			"type": "image",
+			"name": "cardBg_212_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_22.png",
+			"type": "image",
+			"name": "cardBg_222_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_23.png",
+			"type": "image",
+			"name": "cardBg_232_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_24.png",
+			"type": "image",
+			"name": "cardBg_242_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_25.png",
+			"type": "image",
+			"name": "cardBg_252_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_26.png",
+			"type": "image",
+			"name": "cardBg_262_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_27.png",
+			"type": "image",
+			"name": "cardBg_272_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_28.png",
+			"type": "image",
+			"name": "cardBg_282_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_29.png",
+			"type": "image",
+			"name": "cardBg_292_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_3.png",
+			"type": "image",
+			"name": "cardBg_310_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_30.png",
+			"type": "image",
+			"name": "cardBg_302_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_31.png",
+			"type": "image",
+			"name": "cardBg_312_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_32.png",
+			"type": "image",
+			"name": "cardBg_322_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_33.png",
+			"type": "image",
+			"name": "cardBg_332_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_34.png",
+			"type": "image",
+			"name": "cardBg_342_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_35.png",
+			"type": "image",
+			"name": "cardBg_352_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_36.png",
+			"type": "image",
+			"name": "cardBg_362_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_37.png",
+			"type": "image",
+			"name": "cardBg_372_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_38.png",
+			"type": "image",
+			"name": "cardBg_382_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_39.png",
+			"type": "image",
+			"name": "cardBg_392_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_4.png",
+			"type": "image",
+			"name": "cardBg_410_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_40.png",
+			"type": "image",
+			"name": "cardBg_402_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_41.png",
+			"type": "image",
+			"name": "cardBg_412_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_42.png",
+			"type": "image",
+			"name": "cardBg_422_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_43.png",
+			"type": "image",
+			"name": "cardBg_432_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_44.png",
+			"type": "image",
+			"name": "cardBg_442_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_45.png",
+			"type": "image",
+			"name": "cardBg_452_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_46.png",
+			"type": "image",
+			"name": "cardBg_462_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_47.png",
+			"type": "image",
+			"name": "cardBg_472_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_48.png",
+			"type": "image",
+			"name": "cardBg_482_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_49.png",
+			"type": "image",
+			"name": "cardBg_492_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_5.png",
+			"type": "image",
+			"name": "cardBg_52_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_50.png",
+			"type": "image",
+			"name": "cardBg_502_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_6.png",
+			"type": "image",
+			"name": "cardBg_62_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_7.png",
+			"type": "image",
+			"name": "cardBg_72_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_8.png",
+			"type": "image",
+			"name": "cardBg_82_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/cardBg/cardBg_9.png",
+			"type": "image",
+			"name": "cardBg_92_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_1.png",
+			"type": "image",
+			"name": "joker_110_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_10.png",
+			"type": "image",
+			"name": "joker_102_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_11.png",
+			"type": "image",
+			"name": "joker_112_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_12.png",
+			"type": "image",
+			"name": "joker_122_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_13.png",
+			"type": "image",
+			"name": "joker_132_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_14.png",
+			"type": "image",
+			"name": "joker_142_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_15.png",
+			"type": "image",
+			"name": "joker_152_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_16.png",
+			"type": "image",
+			"name": "joker_162_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_17.png",
+			"type": "image",
+			"name": "joker_172_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_18.png",
+			"type": "image",
+			"name": "joker_182_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_19.png",
+			"type": "image",
+			"name": "joker_192_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_2.png",
+			"type": "image",
+			"name": "joker_210_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_20.png",
+			"type": "image",
+			"name": "joker_202_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_21.png",
+			"type": "image",
+			"name": "joker_212_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_22.png",
+			"type": "image",
+			"name": "joker_222_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_23.png",
+			"type": "image",
+			"name": "joker_232_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_24.png",
+			"type": "image",
+			"name": "joker_242_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_25.png",
+			"type": "image",
+			"name": "joker_252_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_26.png",
+			"type": "image",
+			"name": "joker_262_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_27.png",
+			"type": "image",
+			"name": "joker_272_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_28.png",
+			"type": "image",
+			"name": "joker_282_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_29.png",
+			"type": "image",
+			"name": "joker_292_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_3.png",
+			"type": "image",
+			"name": "joker_310_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_30.png",
+			"type": "image",
+			"name": "joker_302_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_31.png",
+			"type": "image",
+			"name": "joker_312_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_32.png",
+			"type": "image",
+			"name": "joker_322_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_33.png",
+			"type": "image",
+			"name": "joker_332_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_34.png",
+			"type": "image",
+			"name": "joker_342_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_35.png",
+			"type": "image",
+			"name": "joker_352_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_36.png",
+			"type": "image",
+			"name": "joker_362_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_37.png",
+			"type": "image",
+			"name": "joker_372_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_38.png",
+			"type": "image",
+			"name": "joker_382_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_39.png",
+			"type": "image",
+			"name": "joker_392_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_4.png",
+			"type": "image",
+			"name": "joker_45_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_40.png",
+			"type": "image",
+			"name": "joker_402_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_41.png",
+			"type": "image",
+			"name": "joker_412_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_42.png",
+			"type": "image",
+			"name": "joker_422_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_43.png",
+			"type": "image",
+			"name": "joker_432_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_44.png",
+			"type": "image",
+			"name": "joker_442_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_5.png",
+			"type": "image",
+			"name": "joker_52_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_6.png",
+			"type": "image",
+			"name": "joker_62_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_7.png",
+			"type": "image",
+			"name": "joker_72_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_8.png",
+			"type": "image",
+			"name": "joker_82_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/redJoker/joker_9.png",
+			"type": "image",
+			"name": "joker_92_png"
+		},
+		{
+			"url": "assets/Asource/music/AnteBegin.mp3",
+			"type": "sound",
+			"name": "AnteBegin2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/AnteWarn.mp3",
+			"type": "sound",
+			"name": "AnteWarn2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/AutoBet.mp3",
+			"type": "sound",
+			"name": "AutoBet2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/Banker.mp3",
+			"type": "sound",
+			"name": "Banker2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/Bet.mp3",
+			"type": "sound",
+			"name": "Bet2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/ChangeChip.mp3",
+			"type": "sound",
+			"name": "ChangeChip2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/Clock.mp3",
+			"type": "sound",
+			"name": "Clock2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/GameBtn.mp3",
+			"type": "sound",
+			"name": "GameBtn2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/Lose.mp3",
+			"type": "sound",
+			"name": "Lose2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/MouseMove.mp3",
+			"type": "sound",
+			"name": "MouseMove2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/background1.mp3",
+			"type": "sound",
+			"name": "background12_mp3"
+		},
+		{
+			"url": "assets/Asource/music/background2.mp3",
+			"type": "sound",
+			"name": "background22_mp3"
+		},
+		{
+			"url": "assets/Asource/music/background3.mp3",
+			"type": "sound",
+			"name": "background32_mp3"
+		},
+		{
+			"url": "assets/Asource/music/background4.mp3",
+			"type": "sound",
+			"name": "background42_mp3"
+		},
+		{
+			"url": "assets/Asource/music/background5.mp3",
+			"type": "sound",
+			"name": "background52_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_1.mp3",
+			"type": "sound",
+			"name": "sound_poker_14_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_10.mp3",
+			"type": "sound",
+			"name": "sound_poker_102_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_11.mp3",
+			"type": "sound",
+			"name": "sound_poker_112_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_12.mp3",
+			"type": "sound",
+			"name": "sound_poker_122_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_13.mp3",
+			"type": "sound",
+			"name": "sound_poker_132_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_2.mp3",
+			"type": "sound",
+			"name": "sound_poker_22_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_3.mp3",
+			"type": "sound",
+			"name": "sound_poker_32_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_4.mp3",
+			"type": "sound",
+			"name": "sound_poker_42_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_5.mp3",
+			"type": "sound",
+			"name": "sound_poker_52_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_6.mp3",
+			"type": "sound",
+			"name": "sound_poker_62_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_7.mp3",
+			"type": "sound",
+			"name": "sound_poker_72_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_8.mp3",
+			"type": "sound",
+			"name": "sound_poker_82_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_9.mp3",
+			"type": "sound",
+			"name": "sound_poker_92_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_big_king.mp3",
+			"type": "sound",
+			"name": "sound_poker_big_king2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_small_king.mp3",
+			"type": "sound",
+			"name": "sound_poker_small_king2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_type_1.mp3",
+			"type": "sound",
+			"name": "sound_poker_type_12_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_type_2.mp3",
+			"type": "sound",
+			"name": "sound_poker_type_22_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_type_3.mp3",
+			"type": "sound",
+			"name": "sound_poker_type_32_mp3"
+		},
+		{
+			"url": "assets/Asource/music/card/sound_poker_type_4.mp3",
+			"type": "sound",
+			"name": "sound_poker_type_42_mp3"
+		},
+		{
+			"url": "assets/Asource/music/result_win.mp3",
+			"type": "sound",
+			"name": "result_win2_mp3"
+		},
+		{
+			"url": "assets/Asource/music/stop_add_chip.mp3",
+			"type": "sound",
+			"name": "stop_add_chip2_mp3"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_1.png",
+			"type": "image",
+			"name": "star_1_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_2.png",
+			"type": "image",
+			"name": "star_2_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_3.png",
+			"type": "image",
+			"name": "star_3_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_4.png",
+			"type": "image",
+			"name": "star_4_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_5.png",
+			"type": "image",
+			"name": "star_5_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_6.png",
+			"type": "image",
+			"name": "star_6_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_7.png",
+			"type": "image",
+			"name": "star_7_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_8.png",
+			"type": "image",
+			"name": "star_8_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_9.png",
+			"type": "image",
+			"name": "star_9_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_10.png",
+			"type": "image",
+			"name": "star_10_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_11.png",
+			"type": "image",
+			"name": "star_11_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_12.png",
+			"type": "image",
+			"name": "star_12_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_13.png",
+			"type": "image",
+			"name": "star_13_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_14.png",
+			"type": "image",
+			"name": "star_14_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_15.png",
+			"type": "image",
+			"name": "star_15_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_16.png",
+			"type": "image",
+			"name": "star_16_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_17.png",
+			"type": "image",
+			"name": "star_17_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_18.png",
+			"type": "image",
+			"name": "star_18_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_19.png",
+			"type": "image",
+			"name": "star_19_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_20.png",
+			"type": "image",
+			"name": "star_20_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_21.png",
+			"type": "image",
+			"name": "star_21_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_22.png",
+			"type": "image",
+			"name": "star_22_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_23.png",
+			"type": "image",
+			"name": "star_23_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_24.png",
+			"type": "image",
+			"name": "star_24_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_25.png",
+			"type": "image",
+			"name": "star_25_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_26.png",
+			"type": "image",
+			"name": "star_26_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_27.png",
+			"type": "image",
+			"name": "star_27_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_28.png",
+			"type": "image",
+			"name": "star_28_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_29.png",
+			"type": "image",
+			"name": "star_29_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_30.png",
+			"type": "image",
+			"name": "star_30_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_31.png",
+			"type": "image",
+			"name": "star_31_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_32.png",
+			"type": "image",
+			"name": "star_32_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_33.png",
+			"type": "image",
+			"name": "star_33_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_34.png",
+			"type": "image",
+			"name": "star_34_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_35.png",
+			"type": "image",
+			"name": "star_35_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_36.png",
+			"type": "image",
+			"name": "star_36_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_37.png",
+			"type": "image",
+			"name": "star_37_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_38.png",
+			"type": "image",
+			"name": "star_38_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_39.png",
+			"type": "image",
+			"name": "star_39_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_40.png",
+			"type": "image",
+			"name": "star_40_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_41.png",
+			"type": "image",
+			"name": "star_41_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_42.png",
+			"type": "image",
+			"name": "star_42_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_43.png",
+			"type": "image",
+			"name": "star_43_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_44.png",
+			"type": "image",
+			"name": "star_44_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_45.png",
+			"type": "image",
+			"name": "star_45_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_46.png",
+			"type": "image",
+			"name": "star_46_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_47.png",
+			"type": "image",
+			"name": "star_47_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_48.png",
+			"type": "image",
+			"name": "star_48_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_49.png",
+			"type": "image",
+			"name": "star_49_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_50.png",
+			"type": "image",
+			"name": "star_50_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_51.png",
+			"type": "image",
+			"name": "star_51_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_52.png",
+			"type": "image",
+			"name": "star_52_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_5_01.png",
+			"type": "image",
+			"name": "Card_5_01_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_5_02.png",
+			"type": "image",
+			"name": "Card_5_02_png"
 		}
 	]
 }
