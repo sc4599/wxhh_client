@@ -1,4 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="GameSceneJdSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+<e:Skin class="GameSceneJdSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Image source="bg_sprite_png" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:BetBtn x="335" y="565" skinName="BetBtnSkin"/>
+	<e:Button id="loginBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="5" y="5">
+        <e:skinName>
+        <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="btn_back_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+        </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Button id="setBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="1110" y="5">
+        <e:skinName>
+        <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="btn_setting_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+        </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Button id="changeBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="13" y="630">
+        <e:skinName>
+        <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="btn_change_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+        </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Button id="continueBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="1086" y="600">
+        <e:skinName>
+        <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="btn_continue_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+        </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Image source="01_png" x="571.61" y="496.92"/>
 </e:Skin>

@@ -3,6 +3,7 @@
   "exmls": [
     "resource/skin/panel/LoginPanelSkin.exml",
     "resource/skin/panel/RegistPanelSkin.exml",
+    "resource/skin/scene/sceneModule/BetBtnSkin.exml",
     "resource/skin/scene/GameSceneJdSkin.exml",
     "resource/skin/scene/HallSceneSkin.exml",
     "resource/skin/scene/LoginSceneSkin.exml"

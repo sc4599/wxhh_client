@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetBtnSkin" width="720" height="120" xmlns:e="http://ns.egret.com/eui">
+    <e:Group id="betBtnGro" width="100%" height="100%" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+    <e:Button label="" x="0" y="9">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="btn_1_png" source.down="btn_1_press_png" source.disabled="btn_1_disable_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button label="" x="149" y="9">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="btn_2_png" source.down="btn_2_press_png" source.disabled="btn_2_disable_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button label="" x="297" y="9">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="btn_3_png" source.down="btn_3_press_png" source.disabled="btn_3_disable_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button label="" x="446" y="9">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="btn_4_png" source.down="btn_4_press_png" source.disabled="btn_4_disable_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button label="" y="9" right="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="btn_5_png" source.down="btn_5_press_png" source.disabled="btn_5_disable_png"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	</e:Group>
+</e:Skin>
