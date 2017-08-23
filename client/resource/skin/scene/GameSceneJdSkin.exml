@@ -37,4 +37,10 @@
     </e:Button>
 	<e:BitmapLabel id="betLevelLab" width="178.97" x="132.7" y="643.35" anchorOffsetX="0" anchorOffsetY="0" font="chips_num_fnt" text="0123"/>
 	<e:Image source="01_png" x="572" y="496"/>
+	<e:Group width="140" height="22" x="75" y="486">
+		<e:BitmapLabel id="goldLab" y="0" text="123" font="coin_num_fnt" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+	</e:Group>
+	<e:Group width="140" height="22" x="75" y="533">
+		<e:BitmapLabel id="diamondLab" y="0" text="123" font="diamond_num_fnt" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+	</e:Group>
 </e:Skin>

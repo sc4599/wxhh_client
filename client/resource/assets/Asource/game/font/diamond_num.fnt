@@ -1,0 +1,11 @@
+{"file":"diamond_num.png","frames":{
+"0":{"x":0,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"1":{"x":15,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"2":{"x":30,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"3":{"x":45,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"4":{"x":60,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"5":{"x":75,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"6":{"x":90,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"7":{"x":105,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"8":{"x":120,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22},
+"9":{"x":135,"y":0,"w":15,"h":22,"offX":0,"offY":0,"sourceW":15,"sourceH":22}}}

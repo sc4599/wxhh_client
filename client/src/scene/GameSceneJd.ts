@@ -11,6 +11,8 @@ class GameSceneJd extends BaseScene {
     public changeBtn:eui.Button;
     public continueBtn:eui.Button;
     public betLevelLab:eui.BitmapLabel;
+    public goldLab:eui.BitmapLabel;
+    public diamondLab:eui.BitmapLabel;
 
     private starMovie: BitmapMovie;
 
@@ -44,6 +46,8 @@ class GameSceneJd extends BaseScene {
     private init() {
         this.setBetBtn(false);
         this.refreshBetLab(BetLevel.small);
+        this.refreshGoldLab(UserInfo.Instance.gold);
+        this.refreshDiamondLab(0);
     }
 
     private onTouchBet(msg: BetMessage) {
@@ -68,6 +72,17 @@ class GameSceneJd extends BaseScene {
     }
 
     public refreshBetLab(num: number) {
+        num = num || 0;
         this.betLevelLab.text = num + "";
+    }
+
+    public refreshGoldLab(num: number) {
+        num = num || 0;
+        this.goldLab.text = num + "";
+    }
+
+    public refreshDiamondLab(num: number) {
+        num = num || 0;
+        this.diamondLab.text = num + "";
     }
 }

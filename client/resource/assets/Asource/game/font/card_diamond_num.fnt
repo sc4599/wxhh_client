@@ -1,0 +1,14 @@
+{"file":"card_diamond_num.png","frames":{
+"A":{"x":0,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"2":{"x":77,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"3":{"x":154,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"4":{"x":231,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"5":{"x":308,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"6":{"x":385,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"7":{"x":462,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"8":{"x":539,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"9":{"x":616,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"T":{"x":693,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"J":{"x":770,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"Q":{"x":847,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60},
+"K":{"x":924,"y":0,"w":77,"h":60,"offX":0,"offY":0,"sourceW":77,"sourceH":60}}}

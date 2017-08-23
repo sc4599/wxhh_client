@@ -1,0 +1,14 @@
+{"file":"card_heart_num.png","frames":{
+"A":{"x":0,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"2":{"x":80,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"3":{"x":160,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"4":{"x":240,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"5":{"x":320,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"6":{"x":400,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"7":{"x":480,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"8":{"x":560,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"9":{"x":640,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"T":{"x":720,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"J":{"x":800,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"Q":{"x":880,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68},
+"K":{"x":960,"y":0,"w":80,"h":68,"offX":0,"offY":0,"sourceW":80,"sourceH":68}}}

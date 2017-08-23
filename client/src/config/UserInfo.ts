@@ -18,6 +18,7 @@ class UserInfo {
     }
 
     public init(data: any) {
+        console.log("userinfo init data ==", data);
         this._userId = data.id || 0;
         this._gold = data.gold || 0;
         this._name = data.name || "无";
@@ -30,5 +31,9 @@ class UserInfo {
 
     public get userId() {
         return this._userId;
+    }
+
+    public get gold() {
+        return this._gold;
     }
 }
