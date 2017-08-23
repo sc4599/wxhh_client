@@ -14,7 +14,7 @@ enum BetMessage {
 class BetBtn extends BaseUI {
     public betBtnGro:eui.Group;
 
-    private _listener: Function;
+    public listener: Function;
 
     public constructor() {
         super();
@@ -26,8 +26,9 @@ class BetBtn extends BaseUI {
     }
 
     private onTouch(e: egret.TouchEvent) {
-        if (!this._listener) {
+        if (!this.listener) {
             console.error("bet btn do not set listener");
+            return;
         }
         var target = e.target;
         var message;
@@ -50,14 +51,14 @@ class BetBtn extends BaseUI {
             default:
                 break;
         }
-        if (message) {
-            this.listener.call(message);
+        if (message || message == 0) {
+            this.listener(message);
         }
     }
 
-    public set listener(listener: Function) {
-        if (listener) {
-            this._listener = listener;
+    public setBtnEnabled(flag: boolean) {
+        for (var i = 0;i < 5;i ++) {
+            (<eui.Button>this.betBtnGro.getChildAt(i)).enabled = flag;
         }
     }
 }

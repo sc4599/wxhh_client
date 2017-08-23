@@ -68,6 +68,7 @@ class LoginLogic {
             return;
         }
 
+        UserInfo.Instance.init(data.info);
         SceneManager.Instance.show(SceneConst.HallScene);
     }
 

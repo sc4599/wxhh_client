@@ -15,6 +15,7 @@ class BitmapMovie extends egret.Bitmap{
 	private animTimer:egret.Timer;//动画计时器
 	private loop:number = 1;      //循环次数
 	private start:number = 1;
+	private _listener: Function;
 
 	public constructor() {
 		super();
@@ -34,10 +35,11 @@ class BitmapMovie extends egret.Bitmap{
 	public setImgBuffer(imgName:string ,startIndex:number, endIndex:number){
 		this.start = startIndex;
 		var len = endIndex - startIndex;
-		for(var i = 0;i < this.start;i ++) {
+		for(var i = 1;i < this.start;i ++) {
 			this.bmdList.push(null);
 		}
 		for(var i=this.start;i<=len+this.start;i++){
+			// console.log("RES==", RES.getRes(imgName + "_" +i + "_png"));
 			this.bmdList.push(RES.getRes(imgName + "_" +i + "_png"));
 		}
 		this.curFrame = startIndex;
@@ -91,7 +93,7 @@ class BitmapMovie extends egret.Bitmap{
 				this.gotoAndPlay(this.start,this.loop);
 			}else{
 				this.stopTimer();
-				this.dispatchEvent(new egret.Event(egret.Event.COMPLETE));
+				// this._listener && this._listener();
 				return;
 			}
 			
@@ -108,5 +110,9 @@ class BitmapMovie extends egret.Bitmap{
 			this.animTimer.removeEventListener(egret.TimerEvent.TIMER, this.onTimer, this);
 			this.animTimer.stop();
 		}
+	}
+
+	public set completeListener(listener: Function) {
+		this._listener = listener;
 	}
 }

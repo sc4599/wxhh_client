@@ -4,32 +4,70 @@
  */
 
 class GameSceneJd extends BaseScene {
+    public recordMod:RecordList;
+    public betMod:BetBtn;
+    public backBtn:eui.Button;
+    public setBtn:eui.Button;
+    public changeBtn:eui.Button;
+    public continueBtn:eui.Button;
+    public betLevelLab:eui.BitmapLabel;
+
+    private starMovie: BitmapMovie;
+
     public constructor() {
         super();
         this.skinName = "GameSceneJdSkin";
 	}
 
+    public get logic():GameLogicJd {
+        return GameLogicJd.Instance;
+    }
+
+    protected childrenCreated() {
+        this.betMod.listener = (msg)=>{
+            this.onTouchBet(msg);
+        };
+    }
+
     public onEnable() {
-        var movie = new BitmapMovie();
-        movie.setImgBuffer("cardBg",1,50);
-        movie.play(9999);
-        this.addChild(movie);
+        this.backBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onBack, this);
+        this.changeBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onChange, this);
+        this.continueBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onContinue, this);
 
-        var movieL = new BitmapMovie();
-        movieL.setImgBuffer("joker",1,44);
-        movieL.speed = 1;
-        movieL.play();
-        this.addChild(movieL);
-
-        var movieM = new BitmapMovie();
-        movieM.setImgBuffer("star",1,52);
-        movieM.speed = 2;
-        movieM.play(99);
-        movieM.x = 400;
-        this.addChild(movieM);
+        this.init();
     }
 
     public onRemove() {
         
+    }
+
+    private init() {
+        this.setBetBtn(false);
+        this.refreshBetLab(BetLevel.small);
+    }
+
+    private onTouchBet(msg: BetMessage) {
+        var cardType:number = msg;
+        this.logic.bet(cardType);
+    }
+
+    private onBack() {
+        
+    }
+
+    private onChange() {
+        this.logic.nextBetLevel();
+    }
+
+    private onContinue() {
+        
+    }
+
+    public setBetBtn(flag: boolean) {
+        this.betMod.setBtnEnabled(flag);
+    }
+
+    public refreshBetLab(num: number) {
+        this.betLevelLab.text = num + "";
     }
 }

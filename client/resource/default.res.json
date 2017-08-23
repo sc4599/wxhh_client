@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "btn_close_png,clockCircle_png,tips_bg_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png,Card_5_012_png,Card_5_022_png,star_110_png,star_102_png,star_112_png,star_122_png,star_132_png,star_142_png,star_152_png,star_162_png,star_172_png,star_182_png,star_192_png,star_210_png,star_202_png,star_212_png,star_222_png,star_232_png,star_242_png,star_252_png,star_262_png,star_272_png,star_282_png,star_292_png,star_310_png,star_302_png,star_312_png,star_322_png,star_332_png,star_342_png,star_352_png,star_362_png,star_372_png,star_382_png,star_392_png,star_410_png,star_402_png,star_412_png,star_422_png,star_432_png,star_442_png,star_452_png,star_462_png,star_472_png,star_482_png,star_492_png,star_53_png,star_502_png,star_512_png,star_522_png,star_62_png,star_72_png,star_82_png,star_92_png,cardBg_92_png,cardBg_9_png,cardBg_82_png,cardBg_8_png,cardBg_72_png,cardBg_7_png,cardBg_6_png,cardBg_62_png,cardBg_50_png,cardBg_502_png,cardBg_52_png,cardBg_5_png,cardBg_49_png,cardBg_492_png,cardBg_48_png,cardBg_482_png,cardBg_47_png,cardBg_472_png,cardBg_462_png,cardBg_46_png,cardBg_452_png,cardBg_45_png,cardBg_44_png,cardBg_442_png,cardBg_43_png,cardBg_432_png,cardBg_422_png,cardBg_42_png,cardBg_41_png,cardBg_412_png,cardBg_40_png,cardBg_402_png,cardBg_4_png,cardBg_410_png,cardBg_39_png,cardBg_392_png,cardBg_382_png,cardBg_38_png,cardBg_372_png,cardBg_37_png,cardBg_362_png,cardBg_36_png,cardBg_352_png,cardBg_35_png,cardBg_34_png,cardBg_342_png,cardBg_33_png,cardBg_332_png,cardBg_32_png,cardBg_322_png,cardBg_31_png,cardBg_312_png,cardBg_30_png,cardBg_302_png,cardBg_3_png,cardBg_310_png,cardBg_29_png,cardBg_292_png,cardBg_282_png,cardBg_28_png,cardBg_27_png,cardBg_272_png,cardBg_26_png,cardBg_262_png,cardBg_25_png,cardBg_252_png,cardBg_24_png,cardBg_242_png,cardBg_23_png,cardBg_232_png,cardBg_22_png,cardBg_222_png,cardBg_212_png,cardBg_21_png,cardBg_20_png,cardBg_202_png,cardBg_210_png,cardBg_2_png,cardBg_192_png,cardBg_19_png,cardBg_182_png,cardBg_18_png,cardBg_172_png,cardBg_17_png,cardBg_162_png,cardBg_16_png,cardBg_152_png,cardBg_15_png,cardBg_142_png,cardBg_14_png,cardBg_13_png,cardBg_132_png,cardBg_122_png,cardBg_12_png,cardBg_112_png,cardBg_11_png,cardBg_10_png,cardBg_102_png,cardBg_1_png,cardBg_110_png,boom_9_png,boom_8_png,boom_7_png,boom_6_png,boom_5_png,boom_4_png,boom_3_png,boom_20_png,boom_19_png,boom_18_png,boom_17_png,boom_16_png,boom_15_png,boom_14_png,boom_13_png,boom_12_png,boom_11_png,boom_10_png,boom_1_png,boom__png,chips_num_png,chips_num_fnt",
 			"name": "preload"
 		},
 		{
@@ -3062,6 +3062,386 @@
 			"url": "assets/Asource/game/PlistCard/Card_5_02.png",
 			"type": "image",
 			"name": "Card_5_02_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_5_01.png",
+			"type": "image",
+			"name": "Card_5_012_png"
+		},
+		{
+			"url": "assets/Asource/game/PlistCard/Card_5_02.png",
+			"type": "image",
+			"name": "Card_5_022_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_1.png",
+			"type": "image",
+			"name": "star_110_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_10.png",
+			"type": "image",
+			"name": "star_102_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_11.png",
+			"type": "image",
+			"name": "star_112_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_12.png",
+			"type": "image",
+			"name": "star_122_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_13.png",
+			"type": "image",
+			"name": "star_132_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_14.png",
+			"type": "image",
+			"name": "star_142_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_15.png",
+			"type": "image",
+			"name": "star_152_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_16.png",
+			"type": "image",
+			"name": "star_162_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_17.png",
+			"type": "image",
+			"name": "star_172_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_18.png",
+			"type": "image",
+			"name": "star_182_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_19.png",
+			"type": "image",
+			"name": "star_192_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_2.png",
+			"type": "image",
+			"name": "star_210_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_20.png",
+			"type": "image",
+			"name": "star_202_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_21.png",
+			"type": "image",
+			"name": "star_212_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_22.png",
+			"type": "image",
+			"name": "star_222_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_23.png",
+			"type": "image",
+			"name": "star_232_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_24.png",
+			"type": "image",
+			"name": "star_242_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_25.png",
+			"type": "image",
+			"name": "star_252_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_26.png",
+			"type": "image",
+			"name": "star_262_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_27.png",
+			"type": "image",
+			"name": "star_272_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_28.png",
+			"type": "image",
+			"name": "star_282_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_29.png",
+			"type": "image",
+			"name": "star_292_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_3.png",
+			"type": "image",
+			"name": "star_310_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_30.png",
+			"type": "image",
+			"name": "star_302_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_31.png",
+			"type": "image",
+			"name": "star_312_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_32.png",
+			"type": "image",
+			"name": "star_322_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_33.png",
+			"type": "image",
+			"name": "star_332_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_34.png",
+			"type": "image",
+			"name": "star_342_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_35.png",
+			"type": "image",
+			"name": "star_352_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_36.png",
+			"type": "image",
+			"name": "star_362_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_37.png",
+			"type": "image",
+			"name": "star_372_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_38.png",
+			"type": "image",
+			"name": "star_382_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_39.png",
+			"type": "image",
+			"name": "star_392_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_4.png",
+			"type": "image",
+			"name": "star_410_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_40.png",
+			"type": "image",
+			"name": "star_402_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_41.png",
+			"type": "image",
+			"name": "star_412_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_42.png",
+			"type": "image",
+			"name": "star_422_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_43.png",
+			"type": "image",
+			"name": "star_432_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_44.png",
+			"type": "image",
+			"name": "star_442_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_45.png",
+			"type": "image",
+			"name": "star_452_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_46.png",
+			"type": "image",
+			"name": "star_462_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_47.png",
+			"type": "image",
+			"name": "star_472_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_48.png",
+			"type": "image",
+			"name": "star_482_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_49.png",
+			"type": "image",
+			"name": "star_492_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_5.png",
+			"type": "image",
+			"name": "star_53_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_50.png",
+			"type": "image",
+			"name": "star_502_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_51.png",
+			"type": "image",
+			"name": "star_512_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_52.png",
+			"type": "image",
+			"name": "star_522_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_6.png",
+			"type": "image",
+			"name": "star_62_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_7.png",
+			"type": "image",
+			"name": "star_72_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_8.png",
+			"type": "image",
+			"name": "star_82_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/star/star_9.png",
+			"type": "image",
+			"name": "star_92_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_.png",
+			"type": "image",
+			"name": "boom__png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_1.png",
+			"type": "image",
+			"name": "boom_1_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_10.png",
+			"type": "image",
+			"name": "boom_10_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_11.png",
+			"type": "image",
+			"name": "boom_11_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_12.png",
+			"type": "image",
+			"name": "boom_12_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_13.png",
+			"type": "image",
+			"name": "boom_13_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_14.png",
+			"type": "image",
+			"name": "boom_14_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_15.png",
+			"type": "image",
+			"name": "boom_15_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_16.png",
+			"type": "image",
+			"name": "boom_16_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_17.png",
+			"type": "image",
+			"name": "boom_17_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_18.png",
+			"type": "image",
+			"name": "boom_18_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_19.png",
+			"type": "image",
+			"name": "boom_19_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_20.png",
+			"type": "image",
+			"name": "boom_20_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_3.png",
+			"type": "image",
+			"name": "boom_3_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_4.png",
+			"type": "image",
+			"name": "boom_4_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_5.png",
+			"type": "image",
+			"name": "boom_5_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_6.png",
+			"type": "image",
+			"name": "boom_6_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_7.png",
+			"type": "image",
+			"name": "boom_7_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_8.png",
+			"type": "image",
+			"name": "boom_8_png"
+		},
+		{
+			"url": "assets/Asource/game/movie/boom/boom_9.png",
+			"type": "image",
+			"name": "boom_9_png"
+		},
+		{
+			"name": "chips_num_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/font/chips_num.png"
+		},
+		{
+			"name": "chips_num_fnt",
+			"type": "font",
+			"url": "assets/Asource/game/movie/font/chips_num.fnt"
 		}
 	]
 }

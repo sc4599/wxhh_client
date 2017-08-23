@@ -19,14 +19,15 @@ class RecordList extends BaseUI {
         this.recordGro.removeChildren();
     }
 
-    private addCard(color:number, num: number) {
+    private addCard(color:number, num: number):eui.Image {
         if (color < 1 || color > 5 || num < 1 || num > 13 || (color == 5 && num > 2)) {
             console.error("card value error");
             return;
         }
         var card = new eui.Image()
-        card.source = "Card_"+1+"_"+2+"_png"
+        card.source = "Card_"+color+"_"+num+"_png"
         this.recordGro.addChild(card);
+        return 
     }
 
     private removeAllCard() {

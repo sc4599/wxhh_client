@@ -33,6 +33,13 @@ class NetSend {
         user_name: "",
 	    passwd: ""
     }
+
+    /**下注 */
+    public static S_10002 = {
+        user_id: 0,
+        num: 100,
+        card_type: 0
+    }
 }
 
 class NetRecv {
