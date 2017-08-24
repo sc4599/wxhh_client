@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetLabSkin" width="727" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="inGro" width="100%" height="100%" x="0" y="0">
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" bottom="5">
+			<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="146" bottom="5">
+			<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="292" bottom="5">
+			<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="437" bottom="5">
+			<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="582" bottom="5">
+			<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="allGro" width="100%" height="100%" x="0" y="0">
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" top="10">
+		<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="146" top="10">
+		<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="292" top="10">
+		<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="437" top="10">
+		<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="145" height="21" scaleX="1" scaleY="1" x="582" top="10">
+		<e:BitmapLabel y="0" font="chips_in_num_fnt" text="5000" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -63,4 +63,17 @@ class NetRecv {
         code: 1,
         info: {}
     }
+
+    /**下注 */
+    public static R_10002 = {
+        command: 5000,
+        code: 1,
+        info: {
+            club: 0,
+            diamond: 0,
+            heart: 0,
+            joker: 0,
+            spade: 0
+        }
+    }
 }

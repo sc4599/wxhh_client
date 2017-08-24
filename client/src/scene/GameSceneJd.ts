@@ -4,6 +4,7 @@
  */
 
 class GameSceneJd extends BaseScene {
+    public cardMod:CardMod;
     public recordMod:RecordList;
     public betMod:BetBtn;
     public backBtn:eui.Button;
@@ -43,8 +44,12 @@ class GameSceneJd extends BaseScene {
         
     }
 
+    public backInit(data) {
+        
+    }
+
     private init() {
-        this.setBetBtn(false);
+        // this.setBetBtn(false);
         this.refreshBetLab(BetLevel.small);
         this.refreshGoldLab(UserInfo.Instance.gold);
         this.refreshDiamondLab(0);
@@ -53,6 +58,7 @@ class GameSceneJd extends BaseScene {
     private onTouchBet(msg: BetMessage) {
         var cardType:number = msg;
         this.logic.bet(cardType);
+        // this.cardMod.revolveCard();
     }
 
     private onBack() {

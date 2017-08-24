@@ -55,7 +55,9 @@ class GameLogicJd {
             Tips.show(desc);
             return;
         }
-        //bet success logic
+        else {
+
+        }
     }
 
     public nextBetLevel() {

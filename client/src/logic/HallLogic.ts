@@ -43,6 +43,7 @@ class HallLogic {
             return;
         }
 
-        SceneManager.Instance.show(SceneConst.GameSceneJd);
+        var scene = SceneManager.Instance.show(SceneConst.GameSceneJd) as GameSceneJd;
+        scene.backInit(data.info);
     }
 }

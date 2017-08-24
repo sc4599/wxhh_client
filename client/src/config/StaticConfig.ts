@@ -19,7 +19,7 @@ class StaticConfig {
 
     public constructor() {
         this.testLogin = true;
-        this.skipToGame = true;
+        this.skipToGame = false;
     }
 
     /**
