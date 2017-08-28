@@ -20,12 +20,16 @@ class RecordList extends BaseUI {
     }
 
     private addCard(color:number, num: number):eui.Image {
-        if (color < 1 || color > 5 || num < 1 || num > 13 || (color == 5 && num > 2)) {
+        if (color < 0 || color > 4 || num < 1 || num > 13 || (color == 4 && num > 2)) {
             console.error("card value error");
             return;
         }
-        var card = new eui.Image()
-        card.source = "Card_"+color+"_"+num+"_png"
+        var card = new eui.Image();
+        var numStr = num + "";
+        if (num < 10) {
+            numStr = "0" + num;
+        }
+        card.source = "Card_"+(color+1)+"_"+numStr+"_png";
         this.recordGro.addChild(card);
         return 
     }

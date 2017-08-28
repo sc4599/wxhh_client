@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "btn_close_png,clockCircle_png,tips_bg_png,Card_5_012_png,Card_5_022_png,star_110_png,star_102_png,star_112_png,star_122_png,star_132_png,star_142_png,star_152_png,star_162_png,star_172_png,star_182_png,star_192_png,star_210_png,star_202_png,star_212_png,star_222_png,star_232_png,star_242_png,star_252_png,star_262_png,star_272_png,star_282_png,star_292_png,star_310_png,star_302_png,star_312_png,star_322_png,star_332_png,star_342_png,star_352_png,star_362_png,star_372_png,star_382_png,star_392_png,star_410_png,star_402_png,star_412_png,star_422_png,star_432_png,star_442_png,star_452_png,star_462_png,star_472_png,star_482_png,star_492_png,star_53_png,star_502_png,star_512_png,star_522_png,star_62_png,star_72_png,star_82_png,star_92_png,cardBg_92_png,cardBg_9_png,cardBg_82_png,cardBg_8_png,cardBg_72_png,cardBg_7_png,cardBg_6_png,cardBg_62_png,cardBg_50_png,cardBg_502_png,cardBg_52_png,cardBg_5_png,cardBg_49_png,cardBg_492_png,cardBg_48_png,cardBg_482_png,cardBg_47_png,cardBg_472_png,cardBg_462_png,cardBg_46_png,cardBg_452_png,cardBg_45_png,cardBg_44_png,cardBg_442_png,cardBg_43_png,cardBg_432_png,cardBg_422_png,cardBg_42_png,cardBg_41_png,cardBg_412_png,cardBg_40_png,cardBg_402_png,cardBg_4_png,cardBg_410_png,cardBg_39_png,cardBg_392_png,cardBg_382_png,cardBg_38_png,cardBg_372_png,cardBg_37_png,cardBg_362_png,cardBg_36_png,cardBg_352_png,cardBg_35_png,cardBg_34_png,cardBg_342_png,cardBg_33_png,cardBg_332_png,cardBg_32_png,cardBg_322_png,cardBg_31_png,cardBg_312_png,cardBg_30_png,cardBg_302_png,cardBg_3_png,cardBg_310_png,cardBg_29_png,cardBg_292_png,cardBg_282_png,cardBg_28_png,cardBg_27_png,cardBg_272_png,cardBg_26_png,cardBg_262_png,cardBg_25_png,cardBg_252_png,cardBg_24_png,cardBg_242_png,cardBg_23_png,cardBg_232_png,cardBg_22_png,cardBg_222_png,cardBg_212_png,cardBg_21_png,cardBg_20_png,cardBg_202_png,cardBg_210_png,cardBg_2_png,cardBg_192_png,cardBg_19_png,cardBg_182_png,cardBg_18_png,cardBg_172_png,cardBg_17_png,cardBg_162_png,cardBg_16_png,cardBg_152_png,cardBg_15_png,cardBg_142_png,cardBg_14_png,cardBg_13_png,cardBg_132_png,cardBg_122_png,cardBg_12_png,cardBg_112_png,cardBg_11_png,cardBg_10_png,cardBg_102_png,cardBg_1_png,cardBg_110_png,boom_9_png,boom_8_png,boom_7_png,boom_6_png,boom_5_png,boom_4_png,boom_3_png,boom_20_png,boom_19_png,boom_18_png,boom_17_png,boom_16_png,boom_15_png,boom_14_png,boom_13_png,boom_12_png,boom_11_png,boom_10_png,boom_1_png,boom__png,boom_2_png,boom_110_png,boom_102_png,boom_112_png,boom_122_png,boom_132_png,boom_142_png,boom_152_png,boom_162_png,boom_172_png,boom_182_png,boom_192_png,boom_202_png,boom_32_png,boom_42_png,boom_52_png,boom_62_png,boom_72_png,boom_82_png,boom_92_png",
+			"keys": "btn_close_png,clockCircle_png,tips_bg_png,Card_5_012_png,Card_5_022_png,star_110_png,star_102_png,star_112_png,star_122_png,star_132_png,star_142_png,star_152_png,star_162_png,star_172_png,star_182_png,star_192_png,star_210_png,star_202_png,star_212_png,star_222_png,star_232_png,star_242_png,star_252_png,star_262_png,star_272_png,star_282_png,star_292_png,star_310_png,star_302_png,star_312_png,star_322_png,star_332_png,star_342_png,star_352_png,star_362_png,star_372_png,star_382_png,star_392_png,star_410_png,star_402_png,star_412_png,star_422_png,star_432_png,star_442_png,star_452_png,star_462_png,star_472_png,star_482_png,star_492_png,star_53_png,star_502_png,star_512_png,star_522_png,star_62_png,star_72_png,star_82_png,star_92_png,cardBg_92_png,cardBg_9_png,cardBg_82_png,cardBg_8_png,cardBg_72_png,cardBg_7_png,cardBg_6_png,cardBg_62_png,cardBg_50_png,cardBg_502_png,cardBg_52_png,cardBg_5_png,cardBg_49_png,cardBg_492_png,cardBg_48_png,cardBg_482_png,cardBg_47_png,cardBg_472_png,cardBg_462_png,cardBg_46_png,cardBg_452_png,cardBg_45_png,cardBg_44_png,cardBg_442_png,cardBg_43_png,cardBg_432_png,cardBg_422_png,cardBg_42_png,cardBg_41_png,cardBg_412_png,cardBg_40_png,cardBg_402_png,cardBg_4_png,cardBg_410_png,cardBg_39_png,cardBg_392_png,cardBg_382_png,cardBg_38_png,cardBg_372_png,cardBg_37_png,cardBg_362_png,cardBg_36_png,cardBg_352_png,cardBg_35_png,cardBg_34_png,cardBg_342_png,cardBg_33_png,cardBg_332_png,cardBg_32_png,cardBg_322_png,cardBg_31_png,cardBg_312_png,cardBg_30_png,cardBg_302_png,cardBg_3_png,cardBg_310_png,cardBg_29_png,cardBg_292_png,cardBg_282_png,cardBg_28_png,cardBg_27_png,cardBg_272_png,cardBg_26_png,cardBg_262_png,cardBg_25_png,cardBg_252_png,cardBg_24_png,cardBg_242_png,cardBg_23_png,cardBg_232_png,cardBg_22_png,cardBg_222_png,cardBg_212_png,cardBg_21_png,cardBg_20_png,cardBg_202_png,cardBg_210_png,cardBg_2_png,cardBg_192_png,cardBg_19_png,cardBg_182_png,cardBg_18_png,cardBg_172_png,cardBg_17_png,cardBg_162_png,cardBg_16_png,cardBg_152_png,cardBg_15_png,cardBg_142_png,cardBg_14_png,cardBg_13_png,cardBg_132_png,cardBg_122_png,cardBg_12_png,cardBg_112_png,cardBg_11_png,cardBg_10_png,cardBg_102_png,cardBg_1_png,cardBg_110_png,boom_9_png,boom_8_png,boom_7_png,boom_6_png,boom_5_png,boom_4_png,boom_3_png,boom_20_png,boom_19_png,boom_18_png,boom_17_png,boom_16_png,boom_15_png,boom_14_png,boom_13_png,boom_12_png,boom_11_png,boom_10_png,boom_1_png,boom__png,boom_2_png,boom_110_png,boom_102_png,boom_112_png,boom_122_png,boom_132_png,boom_142_png,boom_152_png,boom_162_png,boom_172_png,boom_182_png,boom_192_png,boom_202_png,boom_32_png,boom_42_png,boom_52_png,boom_62_png,boom_72_png,boom_82_png,boom_92_png,time_1_png,time_2_png,time_3_png,time_4_png,time_5_png,time_6_png,time_7_png,time_8_png,time_9_png,time_10_png,time_11_png,time_12_png,time_13_png,time_14_png,time_15_png,time_16_png,time_17_png,time_18_png,time_19_png,time_20_png,time_21_png,time_22_png,time_23_png,time_24_png,time_25_png,time_26_png,time_27_png,time_28_png,time_29_png,time_30_png,time_31_png,time_32_png,time_33_png,time_34_png,time_35_png,time_36_png,time_37_png,time_38_png,time_39_png,time_40_png,time_41_png,time_42_png,time_43_png,time_44_png,time_45_png,time_46_png,time_47_png,time_48_png,time_49_png,time_50_png,time_51_png",
 			"name": "preload"
 		},
 		{
@@ -3632,6 +3632,261 @@
 			"url": "assets/Asource/game/font/card_heart_num.fnt",
 			"type": "font",
 			"name": "card_heart_num_fnt"
+		},
+		{
+			"name": "time_1_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_1.png"
+		},
+		{
+			"name": "time_2_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_2.png"
+		},
+		{
+			"name": "time_3_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_3.png"
+		},
+		{
+			"name": "time_4_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_4.png"
+		},
+		{
+			"name": "time_5_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_5.png"
+		},
+		{
+			"name": "time_6_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_6.png"
+		},
+		{
+			"name": "time_7_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_7.png"
+		},
+		{
+			"name": "time_8_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_8.png"
+		},
+		{
+			"name": "time_9_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_9.png"
+		},
+		{
+			"name": "time_10_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_10.png"
+		},
+		{
+			"name": "time_11_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_11.png"
+		},
+		{
+			"name": "time_12_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_12.png"
+		},
+		{
+			"name": "time_13_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_13.png"
+		},
+		{
+			"name": "time_14_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_14.png"
+		},
+		{
+			"name": "time_15_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_15.png"
+		},
+		{
+			"name": "time_16_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_16.png"
+		},
+		{
+			"name": "time_17_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_17.png"
+		},
+		{
+			"name": "time_18_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_18.png"
+		},
+		{
+			"name": "time_19_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_19.png"
+		},
+		{
+			"name": "time_20_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_20.png"
+		},
+		{
+			"name": "time_21_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_21.png"
+		},
+		{
+			"name": "time_22_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_22.png"
+		},
+		{
+			"name": "time_23_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_23.png"
+		},
+		{
+			"name": "time_24_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_24.png"
+		},
+		{
+			"name": "time_25_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_25.png"
+		},
+		{
+			"name": "time_26_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_26.png"
+		},
+		{
+			"name": "time_27_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_27.png"
+		},
+		{
+			"name": "time_28_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_28.png"
+		},
+		{
+			"name": "time_29_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_29.png"
+		},
+		{
+			"name": "time_30_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_30.png"
+		},
+		{
+			"name": "time_31_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_31.png"
+		},
+		{
+			"name": "time_32_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_32.png"
+		},
+		{
+			"name": "time_33_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_33.png"
+		},
+		{
+			"name": "time_34_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_34.png"
+		},
+		{
+			"name": "time_35_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_35.png"
+		},
+		{
+			"name": "time_36_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_36.png"
+		},
+		{
+			"name": "time_37_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_37.png"
+		},
+		{
+			"name": "time_38_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_38.png"
+		},
+		{
+			"name": "time_39_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_39.png"
+		},
+		{
+			"name": "time_40_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_40.png"
+		},
+		{
+			"name": "time_41_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_41.png"
+		},
+		{
+			"name": "time_42_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_42.png"
+		},
+		{
+			"name": "time_43_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_43.png"
+		},
+		{
+			"name": "time_44_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_44.png"
+		},
+		{
+			"name": "time_45_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_45.png"
+		},
+		{
+			"name": "time_46_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_46.png"
+		},
+		{
+			"name": "time_47_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_47.png"
+		},
+		{
+			"name": "time_48_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_48.png"
+		},
+		{
+			"name": "time_49_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_49.png"
+		},
+		{
+			"name": "time_50_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_50.png"
+		},
+		{
+			"name": "time_51_png",
+			"type": "image",
+			"url": "assets/Asource/game/movie/time/time_51.png"
 		}
 	]
 }

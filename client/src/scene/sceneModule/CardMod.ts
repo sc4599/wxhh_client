@@ -18,6 +18,8 @@ class CardMod extends BaseUI {
     private girlFlag:boolean;
     private girlNum:number;
 
+    private cardBgMovie:BitmapMovie;
+
     public constructor() {
         super();
         this.skinName = "CardModSkin";
@@ -29,14 +31,27 @@ class CardMod extends BaseUI {
 
         this.girlFlag = true;
         this.showCard();
+
+        this.initCardBgMovie();
     }
 
     protected onEnable() {
         this.frameBlink();
+        this.cardBgMovie.gotoAndPlay(1, -1);
     }
 
     protected onRemove() {
         this.removeBlink();
+        this.cardBgMovie.stop();
+    }
+
+    private initCardBgMovie() {
+        this.cardBgMovie = new BitmapMovie();
+        this.cardBgMovie.setImgBuffer("cardBg",1,50);
+        this.bgGro.addChild(this.cardBgMovie);
+        this.cardBgMovie.frameTime = 59;
+        this.cardBgMovie.x = 0;
+        this.cardBgMovie.y = 0;
     }
 
     public refreshCardValue(color:number, num:number) {

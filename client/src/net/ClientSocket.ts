@@ -233,9 +233,9 @@ class ClientSocket {
         var proto: string = id1 + "";
         var callBack: Function = this.callBackList[proto];
         var thisObject = this.objList[proto];
-        if (proto != "10101") {
+        // if (proto != "10101") {
             console.log("rev:",proto,data);
-        }
+        // }
         if (callBack && thisObject) {
             callBack.call(thisObject, data);
 

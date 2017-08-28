@@ -21,26 +21,42 @@ class BetLab extends BaseUI {
         this.inList = [];
         this.allList = [];
         for(var i = 0;i < 5;i ++) {
-            this.inList.push(<eui.BitmapLabel>this.inGro.getChildAt(i));
-            this.allList.push(<eui.BitmapLabel>this.allGro.getChildAt(i));
+            this.inList.push(<eui.BitmapLabel>(<eui.Group>this.inGro.getChildAt(i)).getChildAt(0));
+            this.allList.push(<eui.BitmapLabel>(<eui.Group>this.allGro.getChildAt(i)).getChildAt(0));
         }
     }
 
     public refreshInLab(data: any) {
         var list = [];
-        list.push(data.spade);
-        list.push(data.heart);
-        list.push(data.club);
-        list.push(data.diamond);
-        list.push(data.joker);
+        if (data[0] || data[0] == 0) {
+            list = data;
+        }
+        else {
+            list.push(data.spade);
+            list.push(data.heart);
+            list.push(data.club);
+            list.push(data.diamond);
+            list.push(data.joker);
+        }
         for (var i = 0;i < 5;i ++) {
             this.inList[i].text = list[i] + "";
         }
     }
 
-    public refreshAllLab(list: Array<number>) {
+    public refreshAllLab(data: any) {
+        var list = [];
+        if (data[0] || data[0] == 0) {
+            list = data;
+        }
+        else {
+            list.push(data.spade);
+            list.push(data.heart);
+            list.push(data.club);
+            list.push(data.diamond);
+            list.push(data.joker);
+        }
         for (var i = 0;i < 5;i ++) {
-            this.inList[i].text = list[i] + "";
+            this.allList[i].text = list[i] + "";
         }
     }
 }

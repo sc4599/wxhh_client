@@ -35,7 +35,10 @@ class GameLogicJd {
     }
 
     private registSocket() {
+        this.socket.register(NetHead.head_10001, this.onBack, this);
         this.socket.register(NetHead.head_10002, this.onBet, this);
+        this.socket.register(NetHead.head_10101, this.pullAllBet, this);
+        this.socket.register(NetHead.head_10100, this.pullAwardPool, this);
     }
 
     public bet(type:number) {
@@ -56,7 +59,36 @@ class GameLogicJd {
             return;
         }
         else {
+            this.scene.refreshInLab(data.info);
+        }
+    }
 
+    private pullAllBet(data) {
+        if (data) {
+            this.scene.refreshAllLab(data);
+        }
+    }
+
+    private pullAwardPool(data) {
+        console.log("奖池信息:");
+        console.log(data);
+    }
+
+    public back() {
+        this.socket.send(NetHead.head_10001, NetSend.S_000);
+    }
+
+    private onBack(data) {
+        if (data.code != 1) {
+            var desc = "退出失败";
+            if (data.info && data.info.desc) {
+                desc = data.info.desc;
+            }
+            Tips.show(desc);
+            return;
+        }
+        else {
+            this.scene.backToHall();
         }
     }
 

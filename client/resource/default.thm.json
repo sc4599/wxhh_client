@@ -4,6 +4,7 @@
     "resource/skin/panel/LoginPanelSkin.exml",
     "resource/skin/panel/RegistPanelSkin.exml",
     "resource/skin/scene/sceneModule/CardModSkin.exml",
+    "resource/skin/scene/sceneModule/TimeModSkin.exml",
     "resource/skin/scene/sceneModule/RecordListSkin.exml",
     "resource/skin/scene/sceneModule/BetLabSkin.exml",
     "resource/skin/scene/sceneModule/BetBtnSkin.exml",

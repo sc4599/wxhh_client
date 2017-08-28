@@ -89,11 +89,11 @@ class BitmapMovie extends egret.Bitmap{
 	private onTimer(){
 		if(this.curFrame == this.totalFrame){
 			this.loop--;
-			if(this.loop >0){
+			if(this.loop >0 || this.loop < 0){
 				this.gotoAndPlay(this.start,this.loop);
 			}else{
 				this.stopTimer();
-				// this._listener && this._listener();
+				this._listener && this._listener();
 				return;
 			}
 			
@@ -114,5 +114,9 @@ class BitmapMovie extends egret.Bitmap{
 
 	public set completeListener(listener: Function) {
 		this._listener = listener;
+	}
+
+	public set frameTime(time: number) {
+		this.delay = time;
 	}
 }

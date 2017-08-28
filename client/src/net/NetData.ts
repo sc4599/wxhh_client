@@ -14,6 +14,10 @@ class NetHead {
     public static head_10000 = "10000";
     /**下注 */
     public static head_10002 = "10002";
+    /**押注池推送 */
+    public static head_10101 = "10101";
+    /**奖池推送 */
+    public static head_10100 = "10100";
 }
 
 class NetSend {
@@ -75,5 +79,20 @@ class NetRecv {
             joker: 0,
             spade: 0
         }
+    }
+
+    /**押注池 */
+    public static P_10101 = {
+        club: 0,
+        diamond: 0,
+        heart: 0,
+        joker: 0,
+        spade: 0
+    }
+
+    /**奖池推送 */
+    public static P_10100 = {
+        cur_award_pool_gold: 0,
+        round_id: 0
     }
 }
