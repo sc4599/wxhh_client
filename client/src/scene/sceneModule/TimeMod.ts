@@ -26,7 +26,6 @@ class TimeMod extends BaseUI {
     private initAnimaTime() {
         this.animaTime = new BitmapMovie();
         this.animaTime.setImgBuffer("time",1,51);
-        this.animaGro.addChild(this.animaTime);
         this.animaTime.frameTime = 59;
         this.animaTime.x = -109;
         this.animaTime.y = -90;
@@ -47,6 +46,7 @@ class TimeMod extends BaseUI {
     }
 
     private showAniTime() {
+        this.animaGro.addChild(this.animaTime);
         this.animaGro.visible = true;
         this.animaTime.gotoAndPlay(1);
     }

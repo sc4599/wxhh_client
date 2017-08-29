@@ -6,17 +6,21 @@ enum PanelConst {
 	/**login */
 	LoginPanel,
 	/**regist */
-	RegistPanel
+	RegistPanel,
+	/**messagebox */
+	MessageBoxPanel
 }
 
 class PanelManager{
 	private panelString = [
         "LoginPanel",
-		"RegistPanel"
+		"RegistPanel",
+		"MessageBoxPanel"
     ]
 	private panelConfig = [
 		LoginPanel,
-		RegistPanel	
+		RegistPanel,
+		MessageBoxPanel
 	]
     private panelList = {};
     private panelClassList = {};

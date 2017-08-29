@@ -22,7 +22,7 @@
         </e:Skin>
         </e:skinName>
     </e:Button>
-	<e:Image source="btn_recharge_png" x="226.56" y="476.35"/>
+	<e:Image source="btn_recharge_png" x="226" y="476"/>
 	<e:Button id="changeBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="13" y="630">
         <e:skinName>
         <e:Skin states="up,down,disabled">
@@ -40,7 +40,7 @@
         </e:skinName>
     </e:Button>
 	<e:BitmapLabel id="betLevelLab" width="178.97" x="132.7" y="643.35" anchorOffsetX="0" anchorOffsetY="0" font="chips_num_fnt" text="0123"/>
-	<e:Image id="starImg" source="01_png" y="500"/>
+	<e:Image id="starImg" source="01_png" y="499" x="578"/>
 	<e:Group width="140" height="22" x="75" y="486">
 		<e:BitmapLabel id="goldLab" y="0" text="123" font="coin_num_fnt" scaleX="1" scaleY="1" horizontalCenter="-5"/>
 	</e:Group>

@@ -25,7 +25,7 @@ class GameSceneJd extends BaseScene {
 	}
 
     public get logic():GameLogicJd {
-        return GameLogicJd.Instance;
+        return GameLogicJd.Instance;       
     }
 
     protected childrenCreated() {
@@ -33,34 +33,35 @@ class GameSceneJd extends BaseScene {
         this.betMod.listener = (msg)=>{
             this.onTouchBet(msg);
         };
-        this.initCardBgMovie();
-        console.log("cccc");
+        this.initStarMovie();
     }
 
-    public onEnable() {
-        console.log("ooooo");
+    protected onEnable() {
         this.backBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onBack, this);
         this.changeBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onChange, this);
         this.continueBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onContinue, this);
 
         this.init();
-        console.log("jfjfjfjjfjfjf==",this.starMovie);
-        // this.starMovie.gotoAndPlay(1,-1);
+        this.playStarMovie();
     }
 
     /**退出时需要清除的东西 */
-    public onRemove() {
+    protected onRemove() {
         this.starMovie.stop();
     }
 
-    private initCardBgMovie() {
+    private initStarMovie() {
         this.starImg.visible = false;
         this.starMovie = new BitmapMovie();
         this.starMovie.setImgBuffer("star",1,52);
-        this.addChild(this.starMovie);
         this.starMovie.frameTime = 59;
         this.starMovie.x = 584;
         this.starMovie.y = 500;
+    }
+
+    private playStarMovie() {
+        this.addChild(this.starMovie);
+        this.starMovie.gotoAndPlay(1,-1);
     }
 
     /**初始化界面 */
@@ -98,7 +99,6 @@ class GameSceneJd extends BaseScene {
     private onTouchBet(msg: BetMessage) {
         var cardType:number = msg;
         this.logic.bet(cardType);
-        // this.cardMod.revolveCard();
     }
 
     private onBack() {

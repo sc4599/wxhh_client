@@ -23,21 +23,20 @@ class CardMod extends BaseUI {
     public constructor() {
         super();
         this.skinName = "CardModSkin";
+
+        this.colorList = ["spade", "heart", "club", "diamond"];
+        this.strList = ["A","2","3","4","5","6","7","8","9","T","J","Q","K"]
+        this.girlFlag = true;
 	}
 
     protected childrenCreated() {
-        this.colorList = ["spade", "heart", "club", "diamond"];
-        this.strList = ["A","2","3","4","5","6","7","8","9","T","J","Q","K"]
-
-        this.girlFlag = true;
-        this.showCard();
-
         this.initCardBgMovie();
     }
 
     protected onEnable() {
+        this.showCard();
         this.frameBlink();
-        this.cardBgMovie.gotoAndPlay(1, -1);
+        this.playCardMovie();
     }
 
     protected onRemove() {
@@ -48,10 +47,14 @@ class CardMod extends BaseUI {
     private initCardBgMovie() {
         this.cardBgMovie = new BitmapMovie();
         this.cardBgMovie.setImgBuffer("cardBg",1,50);
-        this.bgGro.addChild(this.cardBgMovie);
         this.cardBgMovie.frameTime = 59;
         this.cardBgMovie.x = 0;
         this.cardBgMovie.y = 0;
+    }
+
+    private playCardMovie() {
+        this.bgGro.addChild(this.cardBgMovie);
+        this.cardBgMovie.gotoAndPlay(1, -1);
     }
 
     public refreshCardValue(color:number, num:number) {

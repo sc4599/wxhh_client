@@ -63,7 +63,6 @@ class HallScene extends BaseScene {
                 break;
             default:
                 Tips.show("敬请期待");
-                break;
         }
     }
 }

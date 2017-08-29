@@ -2,6 +2,7 @@
   "autoGenerateExmlsList": true,
   "exmls": [
     "resource/skin/panel/LoginPanelSkin.exml",
+    "resource/skin/panel/MessageBoxSkin.exml",
     "resource/skin/panel/RegistPanelSkin.exml",
     "resource/skin/scene/sceneModule/CardModSkin.exml",
     "resource/skin/scene/sceneModule/TimeModSkin.exml",
