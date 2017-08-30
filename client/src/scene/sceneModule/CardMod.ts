@@ -57,6 +57,11 @@ class CardMod extends BaseUI {
         this.cardBgMovie.gotoAndPlay(1, -1);
     }
 
+    public initGirlFlag() {
+        this.girlFlag = true;
+        this.showCard();
+    }
+
     public refreshCardValue(color:number, num:number) {
         if (color == 5) {
             this.cardTopLab.text = this.cardBotLab.text = null;
@@ -64,6 +69,14 @@ class CardMod extends BaseUI {
         }
         this.cardTopLab.font = this.cardBotLab.font = "card_"+this.colorList[color]+"_num_fnt";
         this.cardTopLab.text = this.cardBotLab.text = this.strList[num];
+    }
+
+    public set girl(girl) {
+        this.girlFlag = girl;
+    }
+
+    public get girl() {
+        return this.girlFlag;
     }
 
     public revolveCard() {
@@ -90,7 +103,7 @@ class CardMod extends BaseUI {
         }
     }
 
-    public showCard() {
+    private showCard() {
         if (this.girlFlag) {
             this.girlImg.scaleX = 1;
             this.cardGro.scaleX = 0;

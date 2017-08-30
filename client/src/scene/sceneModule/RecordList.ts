@@ -39,6 +39,17 @@ class RecordList extends BaseUI {
         this.recordGro.removeChildren();
     }
 
+    public addToList(card: Array<number>) {
+        if (card && card.length == 2) {
+            var list = Utils.deepCopy(this.curentList);
+            list.push(card);
+            this.showList(list);
+        }
+        else {
+            console.error("add to list error");
+        }
+    }
+
     public showList(list:Array<Array<number>>) {
         if (!list) {
             console.error("record list error");

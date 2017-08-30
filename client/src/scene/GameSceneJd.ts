@@ -5,6 +5,7 @@
 
 class GameSceneJd extends BaseScene {
     public cardMod:CardMod;
+    public timeMod:TimeMod;
     public recordMod:RecordList;
     public betMod:BetBtn;
     public betLabMod:BetLab;
@@ -34,6 +35,8 @@ class GameSceneJd extends BaseScene {
             this.onTouchBet(msg);
         };
         this.initStarMovie();
+        this.initCardMode();
+        this.initTimeMode();
     }
 
     protected onEnable() {
@@ -90,7 +93,7 @@ class GameSceneJd extends BaseScene {
     }
 
     private init() {
-        // this.setBetBtn(false);
+        this.betMod.setBtnEnabled(false);
         this.refreshBetLab(BetLevel.small);
         this.refreshGoldLab(UserInfo.Instance.gold);
         this.refreshDiamondLab(0);
@@ -111,10 +114,6 @@ class GameSceneJd extends BaseScene {
 
     private onContinue() {
         
-    }
-
-    public setBetBtn(flag: boolean) {
-        this.betMod.setBtnEnabled(flag);
     }
 
     public refreshBetLab(num: number) {
@@ -140,15 +139,51 @@ class GameSceneJd extends BaseScene {
         this.betLabMod.refreshInLab(data);
     }
 
-    public openTimeOver() {
-        this.cardMod.revolveCard();
+    private initTimeMode() {
+        this.timeMod.initShow();
     }
 
-    public resultTimeOver() {
+    private initCardMode() {
+        this.cardMod.initGirlFlag();
+    }
+
+    /**
+     * 旋转卡牌
+     * 开奖时
+     */
+    public resultTimeOver(girl: boolean) {
+        this.cardMod.girl = girl;
         this.cardMod.revolveCard();
     }
 
     public backToHall() {
         SceneManager.Instance.show(SceneConst.HallScene);
+    }
+
+    /**
+     * 当前轮开始
+     */
+    public showRoundStart() {
+        if (!this.cardMod.girl) {
+            this.cardMod.girl = false;
+            this.cardMod.revolveCard();
+        }
+        this.timeMod.showRestTime();
+        this.betMod.setBtnEnabled(true);
+        this.betLabMod.initList();
+    }
+
+    /**
+     * 开奖
+     */
+    public showResult(data:any) {
+        if (this.cardMod.girl) {
+            this.cardMod.girl = true;
+            this.cardMod.revolveCard();
+        }
+        this.timeMod.showResultTime();
+        this.betMod.setBtnEnabled(false);
+        // var card;
+        // this.recordMod.addToList(card);
     }
 }

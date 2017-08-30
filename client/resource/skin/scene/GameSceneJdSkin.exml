@@ -2,7 +2,7 @@
 <e:Skin class="GameSceneJdSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Image source="bg_sprite_png" horizontalCenter="0" verticalCenter="0"/>
 	<ns1:CardMod id="cardMod" x="39" y="100" skinName="CardModSkin"/>
-	<ns1:TimeMod x="39" y="100" skinName="TimeModSkin"/>
+	<ns1:TimeMod id="timeMod" x="39" y="100" skinName="TimeModSkin"/>
 	<ns1:RecordList id="recordMod" x="328" y="200" skinName="RecordListSkin"/>
 	<ns1:BetLab id="betLabMod" x="328" y="478" skinName="BetLabSkin"/>
 	<ns1:BetBtn id="betMod" x="335" y="565" skinName="BetBtnSkin"/>

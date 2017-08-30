@@ -38,7 +38,8 @@ class GameLogicJd {
         this.socket.register(NetHead.head_10001, this.onBack, this);
         this.socket.register(NetHead.head_10002, this.onBet, this);
         this.socket.register(NetHead.head_10101, this.pullAllBet, this);
-        this.socket.register(NetHead.head_10100, this.pullAwardPool, this);
+        this.socket.register(NetHead.head_10100, this.roundStart, this);
+        this.socket.register(NetHead.head_10102, this.revAward, this);
     }
 
     public bet(type:number) {
@@ -69,9 +70,18 @@ class GameLogicJd {
         }
     }
 
-    private pullAwardPool(data) {
-        console.log("奖池信息:");
-        console.log(data);
+    /**round begin */
+    private roundStart(data) {
+        console.log("round start:", data);
+        
+        this.scene.showRoundStart();
+    }
+
+    /**give award */
+    private revAward(data) {
+        console.log("revAward::", data);
+
+        this.scene.showResult(data);
     }
 
     public back() {

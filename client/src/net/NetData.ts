@@ -16,8 +16,12 @@ class NetHead {
     public static head_10002 = "10002";
     /**押注池推送 */
     public static head_10101 = "10101";
-    /**奖池推送 */
+    /**广播游戏开始 */
     public static head_10100 = "10100";
+    /**获取历史记录 */
+    public static head_10003 = "10003";
+    /**开奖推送 */
+    public static head_10102 = "10102";
 }
 
 class NetSend {
@@ -90,7 +94,7 @@ class NetRecv {
         spade: 0
     }
 
-    /**奖池推送 */
+    /**游戏开始 */
     public static P_10100 = {
         cur_award_pool_gold: 0,
         round_id: 0
