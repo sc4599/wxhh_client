@@ -88,14 +88,25 @@ class GameSceneJd extends BaseScene {
         }
 
         if (data.last_records) {
-            this.recordMod.showList(data.last_records);
+            var list = [];
+            if (data.last_records.length >= 48) {
+                for (var i = 0;i < 20;i++) {
+                    list.push(data.last_records[data.last_records.length-i-1]);
+                }
+            }
+            else {
+                list = data.last_records;
+            }
+            this.recordMod.showList(list);
         }
+
+         this.refreshGold(data.gold);
     }
 
     private init() {
         this.betMod.setBtnEnabled(false);
         this.refreshBetLab(BetLevel.small);
-        this.refreshGoldLab(UserInfo.Instance.gold);
+        this.refreshGold(UserInfo.Instance.gold);
         this.refreshDiamondLab(0);
     }
 
@@ -113,7 +124,7 @@ class GameSceneJd extends BaseScene {
     }
 
     private onContinue() {
-        
+        this.logic.continueBet();
     }
 
     public refreshBetLab(num: number) {
@@ -121,8 +132,9 @@ class GameSceneJd extends BaseScene {
         this.betLevelLab.text = num + "";
     }
 
-    public refreshGoldLab(num: number) {
+    public refreshGold(num: number) {
         num = num || 0;
+        UserInfo.Instance.gold = num;
         this.goldLab.text = num + "";
     }
 
@@ -170,20 +182,21 @@ class GameSceneJd extends BaseScene {
         }
         this.timeMod.showRestTime();
         this.betMod.setBtnEnabled(true);
-        this.betLabMod.initList();
+        this.betLabMod.refreshInLab([0,0,0,0,0]);
+        this.betLabMod.refreshAllLab([0,0,0,0,0]);
     }
 
     /**
-     * 开奖
+     * 开奖   
      */
     public showResult(data:any) {
+        this.cardMod.refreshCardValue(data.card[0], data.card[1]);
         if (this.cardMod.girl) {
             this.cardMod.girl = true;
             this.cardMod.revolveCard();
         }
         this.timeMod.showResultTime();
         this.betMod.setBtnEnabled(false);
-        // var card;
-        // this.recordMod.addToList(card);
+        this.recordMod.addToList(data.card);
     }
 }

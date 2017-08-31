@@ -17,13 +17,14 @@ class BetLab extends BaseUI {
         this.initList();
 	}
 
-    public initList() {
+    private initList() {
         this.inList = [];
         this.allList = [];
         for(var i = 0;i < 5;i ++) {
             this.inList.push(<eui.BitmapLabel>(<eui.Group>this.inGro.getChildAt(i)).getChildAt(0));
             this.allList.push(<eui.BitmapLabel>(<eui.Group>this.allGro.getChildAt(i)).getChildAt(0));
         }
+        this.refreshInLab([0,0,0,0,0]);
     }
 
     public refreshInLab(data: any) {

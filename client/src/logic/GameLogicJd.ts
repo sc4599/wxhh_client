@@ -13,6 +13,8 @@ class GameLogicJd {
 
     public betNum: BetLevel = BetLevel.small;
 
+    private lastList:Array<number>;
+
     private static _zInstance: GameLogicJd;
     public static get Instance():GameLogicJd {
         if (!GameLogicJd._zInstance) {
@@ -23,6 +25,7 @@ class GameLogicJd {
 
     public constructor() {
         this.registSocket();
+        this.lastList = [0,0,0,0,0];
     }
 
     /**游戏socket唯一实例 */
@@ -40,9 +43,13 @@ class GameLogicJd {
         this.socket.register(NetHead.head_10101, this.pullAllBet, this);
         this.socket.register(NetHead.head_10100, this.roundStart, this);
         this.socket.register(NetHead.head_10102, this.revAward, this);
+        this.socket.register(NetHead.head_10005, this.onBet, this);
     }
 
     public bet(type:number) {
+        if (!RunConfig.Instance.betStatus) {
+            Tips.show("不在押注时间");
+        }
         var data = NetSend.S_10002;
         data.card_type = type;
         data.num = this.betNum;
@@ -60,8 +67,34 @@ class GameLogicJd {
             return;
         }
         else {
+            this.lastList = [];
+            for (var i in data.info) {
+                this.lastList.push(data.info[i] || 0)
+            }
             this.scene.refreshInLab(data.info);
+            this.scene.refreshGold(data.info.gold); 
         }
+    }
+
+    public continueBet() {
+        if (!RunConfig.Instance.betStatus) {
+            Tips.show("不在押注时间");
+        }
+        var continueFlag:boolean = false;
+        for (var i = 0;i < this.lastList.length;i ++) {
+            if (this.lastList[i]) {
+                continueFlag = true;
+                break;
+            }
+        }
+        if (!continueFlag) {
+            Tips.show("无押注记录");
+            return;
+        }
+        var data = NetSend.S_10005;
+        data.user_id = UserInfo.Instance.userId;
+        data.bet_list = this.lastList;
+        this.socket.send(NetHead.head_10005, data);
     }
 
     private pullAllBet(data) {
@@ -74,6 +107,7 @@ class GameLogicJd {
     private roundStart(data) {
         console.log("round start:", data);
         
+        RunConfig.Instance.betStatus = true;
         this.scene.showRoundStart();
     }
 
@@ -81,7 +115,9 @@ class GameLogicJd {
     private revAward(data) {
         console.log("revAward::", data);
 
+        RunConfig.Instance.betStatus = false;
         this.scene.showResult(data);
+        this.scene.refreshGold(data.gold);
     }
 
     public back() {

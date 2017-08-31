@@ -33,6 +33,7 @@ class BitmapMovie extends egret.Bitmap{
 	 * @endIndex 结束索引
 	 */
 	public setImgBuffer(imgName:string ,startIndex:number, endIndex:number){
+		this.bmdList = [];
 		this.start = startIndex;
 		var len = endIndex - startIndex;
 		for(var i = 1;i < this.start;i ++) {

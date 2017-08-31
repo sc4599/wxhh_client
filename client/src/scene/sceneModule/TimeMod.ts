@@ -62,7 +62,7 @@ class TimeMod extends BaseUI {
         var count = Math.floor(time/1000);
         this.restTime.text = count + "";
         if (!this.restTimer) {
-            this.restTimer = new egret.Timer(1000, count);
+            this.restTimer = new egret.Timer(1050, count);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER, this.onRestTimer, this);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER_COMPLETE, this.onRestTimerOver, this);
         }
