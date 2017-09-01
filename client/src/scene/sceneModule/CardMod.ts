@@ -67,11 +67,18 @@ class CardMod extends BaseUI {
         this.colorMovie = new BitmapMovie();
         this.colorMovie.setImgBuffer("club",1,30);
         this.colorMovie.frameTime = 33;
+        this.colorMovie.anchorOffsetX = 133;
+        this.colorMovie.anchorOffsetY = 185;
+        this.colorMovie.x = 133;
+        this.colorMovie.y = 185;
     }
 
     private playColorMovie() {
         this.cardGro.addChild(this.colorMovie);
         this.colorMovie.gotoAndPlay(1, 1);
+        this.colorMovie.scaleX = this.colorMovie.scaleY = 0.3;
+        egret.Tween.get(this.colorMovie)
+        .to({scaleX: 1, scaleY: 1},33*12);
     }
 
     private refreshColor(color:number) {
