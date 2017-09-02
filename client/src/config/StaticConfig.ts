@@ -26,7 +26,7 @@ class StaticConfig {
      * websocket地址
      */
     public get wsUrl() {
-        return "ws://"+"192.168.1.135:10000";
+        return "ws://"+"www.shiqiuping.win:10000";
     }
     
     /**
