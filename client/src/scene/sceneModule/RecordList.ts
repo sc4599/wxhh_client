@@ -16,7 +16,14 @@ class RecordList extends BaseUI {
 	}
 
     protected childrenCreated() {
-        this.recordGro.removeChildren();
+    }
+
+    protected onEnable() {
+        this.curentList = [];
+    }
+
+    protected onRemove() {
+        this.removeAllCard();
     }
 
     private addCard(color:number, num: number):eui.Image {
@@ -37,6 +44,19 @@ class RecordList extends BaseUI {
     private removeAllCard() {
         this.curentList = [];
         this.recordGro.removeChildren();
+    }
+
+    public addToList(card: Array<number>) {
+        setTimeout(()=>{
+            if (card && card.length == 2) {
+                var list = Utils.deepCopy(this.curentList);
+                list.push(card);
+                this.showList(list);
+            }
+            else {
+                console.error("add to list error");
+            }
+        }, 1000);
     }
 
     public showList(list:Array<Array<number>>) {

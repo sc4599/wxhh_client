@@ -16,8 +16,14 @@ class NetHead {
     public static head_10002 = "10002";
     /**押注池推送 */
     public static head_10101 = "10101";
-    /**奖池推送 */
+    /**广播游戏开始 */
     public static head_10100 = "10100";
+    /**获取历史记录 */
+    public static head_10003 = "10003";
+    /**开奖推送 */
+    public static head_10102 = "10102";
+    /**续压 */
+    public static head_10005 = "10005";
 }
 
 class NetSend {
@@ -43,6 +49,12 @@ class NetSend {
         user_id: 0,
         num: 100,
         card_type: 0
+    }
+
+    /**续压 */
+    public static S_10005 = {
+        user_id: 0,
+        bet_list: [0,0,0,0,0]
     }
 }
 
@@ -90,9 +102,22 @@ class NetRecv {
         spade: 0
     }
 
-    /**奖池推送 */
+    /**游戏开始 */
     public static P_10100 = {
         cur_award_pool_gold: 0,
         round_id: 0
+    }
+
+    /**续压 */
+    public static R_10005 = {
+        command: 5000,
+        code: 1,
+        info: {
+            club: 0,
+            diamond: 0,
+            heart: 0,
+            joker: 0,
+            spade: 0
+        }
     }
 }

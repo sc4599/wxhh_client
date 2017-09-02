@@ -53,8 +53,6 @@ class TimeMod extends BaseUI {
 
     private openTimeOver() {
         this.animaGro.visible = false;
-
-        SceneManager.Instance.getScene(SceneConst.GameSceneJd).openTimeOver();
     }
 
     public showRestTime(time:number = 20000) {
@@ -64,7 +62,7 @@ class TimeMod extends BaseUI {
         var count = Math.floor(time/1000);
         this.restTime.text = count + "";
         if (!this.restTimer) {
-            this.restTimer = new egret.Timer(1000, count);
+            this.restTimer = new egret.Timer(1050, count);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER, this.onRestTimer, this);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER_COMPLETE, this.onRestTimerOver, this);
         }
@@ -84,7 +82,7 @@ class TimeMod extends BaseUI {
     }
 
     private onRestTimerOver() {
-        this.showResultTime();
+
     }
 
     public showResultTime(time: number = 10000) {
@@ -111,7 +109,12 @@ class TimeMod extends BaseUI {
     }
 
     private onResultTimerOver() {
-        this.showRestTime();
-        SceneManager.Instance.getScene(SceneConst.GameSceneJd).resultTimeOver();
+
+    }
+
+    public initShow() {
+        this.restGro.visible = false;
+        this.resultGro.visible = false;
+        this.animaGro.visible = false;
     }
 }

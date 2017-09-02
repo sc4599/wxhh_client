@@ -19,24 +19,30 @@ class CardMod extends BaseUI {
     private girlNum:number;
 
     private cardBgMovie:BitmapMovie;
+    private colorMovie:BitmapMovie;
 
     public constructor() {
         super();
         this.skinName = "CardModSkin";
 
-        this.colorList = ["spade", "heart", "club", "diamond"];
+        this.colorList = ["spade", "heart", "club", "diamond", "joker"];
         this.strList = ["A","2","3","4","5","6","7","8","9","T","J","Q","K"]
         this.girlFlag = true;
 	}
 
     protected childrenCreated() {
         this.initCardBgMovie();
+        this.initColorMovie();
+        this.refreshGirlCard();
     }
 
     protected onEnable() {
         this.showCard();
         this.frameBlink();
         this.playCardMovie();
+        // this.addEventListener(egret.TouchEvent.TOUCH_TAP, ()=>{
+        //     this.revolveCard();
+        // },this)
     }
 
     protected onRemove() {
@@ -57,13 +63,49 @@ class CardMod extends BaseUI {
         this.cardBgMovie.gotoAndPlay(1, -1);
     }
 
+    private initColorMovie() {
+        this.colorMovie = new BitmapMovie();
+        this.colorMovie.setImgBuffer("club",1,30);
+        this.colorMovie.frameTime = 33;
+        this.colorMovie.anchorOffsetX = 133;
+        this.colorMovie.anchorOffsetY = 185;
+        this.colorMovie.x = 133;
+        this.colorMovie.y = 185;
+    }
+
+    private playColorMovie() {
+        this.cardGro.addChild(this.colorMovie);
+        this.colorMovie.gotoAndPlay(1, 1);
+        this.colorMovie.scaleX = this.colorMovie.scaleY = 0.3;
+        egret.Tween.get(this.colorMovie)
+        .to({scaleX: 1, scaleY: 1},33*12);
+    }
+
+    private refreshColor(color:number) {
+        this.colorMovie.setImgBuffer(this.colorList[color],1,30);
+    }
+
+    public initGirlFlag() {
+        this.girlFlag = true;
+        this.showCard();
+    }
+
     public refreshCardValue(color:number, num:number) {
-        if (color == 5) {
+        this.refreshColor(color);
+        if (color == 4) {
             this.cardTopLab.text = this.cardBotLab.text = null;
             return;
         }
         this.cardTopLab.font = this.cardBotLab.font = "card_"+this.colorList[color]+"_num_fnt";
-        this.cardTopLab.text = this.cardBotLab.text = this.strList[num];
+        this.cardTopLab.text = this.cardBotLab.text = this.strList[num-1];
+    }
+
+    public set girl(girl) {
+        this.girlFlag = girl;
+    }
+
+    public get girl() {
+        return this.girlFlag;
     }
 
     public revolveCard() {
@@ -73,6 +115,7 @@ class CardMod extends BaseUI {
             egret.Tween.get(this.girlImg)
             .to({scaleX: 0},500)
             .call(()=>{
+                this.playColorMovie();
                 this.refreshGirlCard();
                 egret.Tween.get(this.cardGro)
                 .to({scaleX: -1},500)
@@ -90,7 +133,7 @@ class CardMod extends BaseUI {
         }
     }
 
-    public showCard() {
+    private showCard() {
         if (this.girlFlag) {
             this.girlImg.scaleX = 1;
             this.cardGro.scaleX = 0;

@@ -6,15 +6,10 @@
 	<e:Group width="100%" height="100%" x="0" y="0">
 		<e:Image id="girlImg" anchorOffsetX="134" anchorOffsetY="182" x="134" y="182" source="girl_027_png"/>
 		<e:Group id="cardGro" width="100%" height="100%" anchorOffsetX="134" anchorOffsetY="182" x="134" y="182">
-			<e:Group id="valueGro11" width="100%" height="100%" x="0" y="0" visible="false">
-				<e:Image source="Card_back_png" x="0" y="0"/>
-				<e:BitmapLabel id="cardTopLab" font="card_club_num_fnt" text="K" x="0" y="15"/>
-				<e:BitmapLabel id="cardBotLab" text="K" font="card_club_num_fnt" rotation="180" y="347" x="268"/>
-			</e:Group>
 			<e:Group id="valueGro" width="100%" height="100%" x="0" y="0">
 				<e:Image source="Card_back_png" x="0" y="0"/>
-				<e:BitmapLabel id="cardTopLab0" font="card_club_num_fnt" text="K" y="15" scaleX="-1" x="268"/>
-				<e:BitmapLabel id="cardBotLab0" text="K" font="card_club_num_fnt" rotation="180" y="347" left="0" scaleX="-1"/>
+				<e:BitmapLabel id="cardTopLab" font="card_club_num_fnt" text="K" y="15" scaleX="-1" x="268"/>
+				<e:BitmapLabel id="cardBotLab" text="K" font="card_club_num_fnt" rotation="180" y="347" left="0" scaleX="-1"/>
 			</e:Group>
 			<e:Group id="framGro" width="100%" height="100%" x="0" y="0">
 				<e:Image source="head_frame_1_png" x="0" y="0" scaleX="1" scaleY="1"/>

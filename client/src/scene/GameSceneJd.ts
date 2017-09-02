@@ -5,6 +5,7 @@
 
 class GameSceneJd extends BaseScene {
     public cardMod:CardMod;
+    public timeMod:TimeMod;
     public recordMod:RecordList;
     public betMod:BetBtn;
     public betLabMod:BetLab;
@@ -34,6 +35,8 @@ class GameSceneJd extends BaseScene {
             this.onTouchBet(msg);
         };
         this.initStarMovie();
+        this.initCardMode();
+        this.initTimeMode();
     }
 
     protected onEnable() {
@@ -85,14 +88,25 @@ class GameSceneJd extends BaseScene {
         }
 
         if (data.last_records) {
-            this.recordMod.showList(data.last_records);
+            var list = [];
+            if (data.last_records.length >= 48) {
+                for (var i = 0;i < 20;i++) {
+                    list.push(data.last_records[data.last_records.length-i-1]);
+                }
+            }
+            else {
+                list = data.last_records;
+            }
+            this.recordMod.showList(list);
         }
+
+         this.refreshGold(data.gold);
     }
 
     private init() {
-        // this.setBetBtn(false);
+        this.betMod.setBtnEnabled(false);
         this.refreshBetLab(BetLevel.small);
-        this.refreshGoldLab(UserInfo.Instance.gold);
+        this.refreshGold(UserInfo.Instance.gold);
         this.refreshDiamondLab(0);
     }
 
@@ -110,11 +124,7 @@ class GameSceneJd extends BaseScene {
     }
 
     private onContinue() {
-        
-    }
-
-    public setBetBtn(flag: boolean) {
-        this.betMod.setBtnEnabled(flag);
+        this.logic.continueBet();
     }
 
     public refreshBetLab(num: number) {
@@ -122,8 +132,9 @@ class GameSceneJd extends BaseScene {
         this.betLevelLab.text = num + "";
     }
 
-    public refreshGoldLab(num: number) {
+    public refreshGold(num: number) {
         num = num || 0;
+        UserInfo.Instance.gold = num;
         this.goldLab.text = num + "";
     }
 
@@ -140,15 +151,52 @@ class GameSceneJd extends BaseScene {
         this.betLabMod.refreshInLab(data);
     }
 
-    public openTimeOver() {
-        this.cardMod.revolveCard();
+    private initTimeMode() {
+        this.timeMod.initShow();
     }
 
-    public resultTimeOver() {
+    private initCardMode() {
+        this.cardMod.initGirlFlag();
+    }
+
+    /**
+     * 旋转卡牌
+     * 开奖时
+     */
+    public resultTimeOver(girl: boolean) {
+        this.cardMod.girl = girl;
         this.cardMod.revolveCard();
     }
 
     public backToHall() {
         SceneManager.Instance.show(SceneConst.HallScene);
+    }
+
+    /**
+     * 当前轮开始
+     */
+    public showRoundStart() {
+        if (!this.cardMod.girl) {
+            this.cardMod.girl = false;
+            this.cardMod.revolveCard();
+        }
+        this.timeMod.showRestTime();
+        this.betMod.setBtnEnabled(true);
+        this.betLabMod.refreshInLab([0,0,0,0,0]);
+        this.betLabMod.refreshAllLab([0,0,0,0,0]);
+    }
+
+    /**
+     * 开奖   
+     */
+    public showResult(data:any) {
+        this.cardMod.refreshCardValue(data.card[0], data.card[1]);
+        if (this.cardMod.girl) {
+            this.cardMod.girl = true;
+            this.cardMod.revolveCard();
+        }
+        this.timeMod.showResultTime();
+        this.betMod.setBtnEnabled(false);
+        this.recordMod.addToList(data.card);
     }
 }

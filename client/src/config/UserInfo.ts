@@ -36,4 +36,11 @@ class UserInfo {
     public get gold() {
         return this._gold;
     }
+
+    public set gold(num: number) {
+        if (!num) {
+            return;
+        }
+        this._gold = num;
+    }
 }

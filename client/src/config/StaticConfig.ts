@@ -8,6 +8,7 @@ class StaticConfig {
     public skipToGame:boolean;
     /**是否用默认账号登录 */
     public testLogin:boolean;
+    private testServer:boolean;
 
     private static _zInstance: StaticConfig;
     public static get Instance():StaticConfig {
@@ -20,13 +21,22 @@ class StaticConfig {
     public constructor() {
         this.testLogin = true;
         this.skipToGame = false;
+        this.testServer = false;
     }
 
     /**
      * websocket地址
      */
     public get wsUrl() {
+<<<<<<< HEAD
         return "ws://"+"www.shiqiuping.win:10000";
+=======
+        var address = "www.shiqiuping.win:10000";
+        if (this.testServer) {
+            address = "192.168.1.135:10000"
+        }
+        return "ws://"+address;
+>>>>>>> dd90c30e52dbfd0cb69860a5b90b8029db6f651d
     }
     
     /**

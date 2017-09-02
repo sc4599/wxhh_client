@@ -5,6 +5,7 @@
 
 class RunConfig {
     private _zWebSocket:ClientSocket;
+    public betStatus:boolean;
 
     private static _zInstance: RunConfig;
     public static get Instance():RunConfig {

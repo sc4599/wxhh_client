@@ -10,4 +10,32 @@ module Utils {
         var messageBox:MessageBoxPanel = PanelManager.Instance.show(PanelConst.MessageBoxPanel);
         messageBox.showMsg(msg, okCallback, thisObj, cancleCallback);
     }
+
+    export function deepCopy(obj: any):any {
+        var newObj;
+        if (typeof obj == "object") {
+            if (obj === null) {
+                newObj = null;
+            }
+            else if (obj == undefined) {
+                newObj = undefined;
+            }
+            else {
+                if (obj instanceof Array) {
+                    newObj = [];
+                    for (var i = 0, len = obj.length; i < len; i++) {
+                        newObj.push(Utils.deepCopy(obj[i]));
+                    }
+                } else {
+                    newObj = {};
+                    for (var k in obj) {
+                        newObj[k] = Utils.deepCopy(obj[k]);
+                    }
+                }
+            }
+        } else {
+            newObj = obj;
+        }
+        return newObj;
+    }
 }
