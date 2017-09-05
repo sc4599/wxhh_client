@@ -67,10 +67,6 @@ class GameLogicJd {
             return;
         }
         else {
-            this.lastList = [];
-            for (var i in data.info) {
-                this.lastList.push(data.info[i] || 0)
-            }
             this.scene.refreshInLab(data.info);
             this.scene.refreshGold(data.info.gold); 
         }
@@ -114,6 +110,10 @@ class GameLogicJd {
     /**give award */
     private revAward(data) {
         console.log("revAward::", data);
+        this.lastList = [];
+        for (var i in data.bet_info) {
+            this.lastList.push(data.bet_info[i] || 0)
+        }
 
         RunConfig.Instance.betStatus = false;
         this.scene.showResult(data);

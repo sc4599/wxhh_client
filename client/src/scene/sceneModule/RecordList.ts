@@ -4,8 +4,8 @@
  */
 
 class RecordList extends BaseUI {
-    public recordGro:eui.Group;
-    public movieGro:eui.Group;
+    public recordGro: eui.Group;
+    public movieGro: eui.Group;
 
     public curentList: Array<Array<number>>;
 
@@ -13,7 +13,7 @@ class RecordList extends BaseUI {
         super();
         this.skinName = "RecordListSkin";
         this.curentList = [];
-	}
+    }
 
     protected childrenCreated() {
     }
@@ -26,7 +26,7 @@ class RecordList extends BaseUI {
         this.removeAllCard();
     }
 
-    private addCard(color:number, num: number):eui.Image {
+    private addCard(color: number, num: number): eui.Image {
         if (color < 0 || color > 4 || num < 1 || num > 13 || (color == 4 && num > 2)) {
             console.error("card value error");
             return;
@@ -36,9 +36,9 @@ class RecordList extends BaseUI {
         if (num < 10) {
             numStr = "0" + num;
         }
-        card.source = "Card_"+(color+1)+"_"+numStr+"_png";
+        card.source = "Card_" + (color + 1) + "_" + numStr + "_png";
         this.recordGro.addChild(card);
-        return 
+        return
     }
 
     private removeAllCard() {
@@ -47,7 +47,7 @@ class RecordList extends BaseUI {
     }
 
     public addToList(card: Array<number>) {
-        setTimeout(()=>{
+        setTimeout(() => {
             if (card && card.length == 2) {
                 var list = Utils.deepCopy(this.curentList);
                 list.push(card);
@@ -59,7 +59,7 @@ class RecordList extends BaseUI {
         }, 1000);
     }
 
-    public showList(list:Array<Array<number>>) {
+    public showList(list: Array<Array<number>>) {
         if (!list) {
             console.error("record list error");
             return;
@@ -70,12 +70,12 @@ class RecordList extends BaseUI {
         }
         else {
             if (len - 1 == this.curentList.length) {
-                var item: Array<number> = list[len-1];
+                var item: Array<number> = list[len - 1];
                 this.addCard(item[0], item[1]);
-                this.showAnima(len-1);
+                this.showAnima(len - 1);
             }
             else {
-                for (var i = 0;i < len-1;i ++) {
+                for (var i = 0; i < len - 1; i++) {
                     var item: Array<number> = list[i];
                     this.addCard(item[0], item[1]);
                 }
@@ -86,6 +86,6 @@ class RecordList extends BaseUI {
     }
 
     private showAnima(index: number) {
-        
+
     }
 }

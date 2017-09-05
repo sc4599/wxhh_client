@@ -5,13 +5,13 @@
 
 class StaticConfig {
     /**直接跳转到游戏界面 */
-    public skipToGame:boolean;
+    public skipToGame: boolean;
     /**是否用默认账号登录 */
-    public testLogin:boolean;
-    private testServer:boolean;
+    public testLogin: boolean;
+    private testServer: boolean;
 
     private static _zInstance: StaticConfig;
-    public static get Instance():StaticConfig {
+    public static get Instance(): StaticConfig {
         if (!StaticConfig._zInstance) {
             StaticConfig._zInstance = new StaticConfig;
         }
@@ -32,9 +32,9 @@ class StaticConfig {
         if (this.testServer) {
             address = "192.168.1.135:10000"
         }
-        return "ws://"+address;
+        return "ws://" + address;
     }
-    
+
     /**
      * 测试账号
      */
