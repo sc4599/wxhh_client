@@ -28,7 +28,8 @@ class HallLogic {
 
     /**进入经典模式 */
     public enterJd() {
-        var data = NetSend.S_000;
+        var data = NetSend.S_10000;
+        data.user_id = UserInfo.Instance.userId;
         this.socket.send(NetHead.head_10000, data);
     }
 

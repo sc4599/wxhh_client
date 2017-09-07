@@ -29,7 +29,7 @@ class NetHead {
 class NetSend {
     /**通用（空） */
     public static S_000 = {
-
+        
     }
 
     /**登录 */
@@ -55,6 +55,11 @@ class NetSend {
     public static S_10005 = {
         user_id: 0,
         bet_list: [0,0,0,0,0]
+    }
+
+    /**进入 */
+    public static S_10000 = {
+        user_id: 0
     }
 }
 
