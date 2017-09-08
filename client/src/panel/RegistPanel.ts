@@ -30,6 +30,8 @@ class RegistPanel extends BasePanel {
     }
 
     private onRegist() {
+        SoundManager.Instance.playEffect(SoundEffect.BiuDu);
+
         if (!this.nameEdit.text || !this.passEdit.text || !this.nickNameEdit.text) {
             Tips.show("账号、昵称或密码不能为空");
         }
@@ -45,6 +47,8 @@ class RegistPanel extends BasePanel {
     }
 
     private onBack() {
+        SoundManager.Instance.playEffect(SoundEffect.BiuDu);
+
         this.hide();
         PanelManager.Instance.show(PanelConst.LoginPanel);
     }

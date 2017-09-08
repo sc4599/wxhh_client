@@ -11,6 +11,7 @@ class LoginScene extends BaseScene {
 	}
 
     public onEnable() {
+        SoundManager.Instance.playBGM(SoundBgm.LoginScene);
     }
 
     public onRemove() {

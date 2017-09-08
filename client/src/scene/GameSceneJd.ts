@@ -40,6 +40,8 @@ class GameSceneJd extends BaseScene {
     }
 
     protected onEnable() {
+        SoundManager.Instance.playBGM(SoundBgm.GameSceneJd);
+
         this.backBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onBack, this);
         this.changeBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onChange, this);
         this.continueBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onContinue, this);
@@ -116,14 +118,20 @@ class GameSceneJd extends BaseScene {
     }
 
     private onBack() {
+        SoundManager.Instance.playEffect(SoundEffect.BiuDu);
+
         this.logic.back();
     }
 
     private onChange() {
+        SoundManager.Instance.playEffect(SoundEffect.ChangeChip);
+
         this.logic.nextBetLevel();
     }
 
     private onContinue() {
+        SoundManager.Instance.playEffect(SoundEffect.ContinueBet);
+
         this.logic.continueBet();
     }
 

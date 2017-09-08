@@ -32,6 +32,9 @@ class TimeMod extends BaseUI {
         this.animaTime.completeListener = ()=>{
             this.openTimeOver();
         }
+        this.animaTime.frameCallback = ()=>{
+            this.animaTimeSound();
+        }
         this.animaGro.visible = false;
     }
 
@@ -49,6 +52,10 @@ class TimeMod extends BaseUI {
         this.animaGro.addChild(this.animaTime);
         this.animaGro.visible = true;
         this.animaTime.gotoAndPlay(1);
+    }
+
+    private animaTimeSound() {
+        SoundManager.Instance.playEffect(SoundEffect.Clock);
     }
 
     private openTimeOver() {
@@ -77,6 +84,8 @@ class TimeMod extends BaseUI {
         }
         this.restTime.text = (Number(this.restTime.text)-1) + "";
         if (this.restTimer.currentCount == 17) {
+            SoundManager.Instance.playEffect(SoundEffect.StopBet);
+
             this.showAniTime();
         }
     }

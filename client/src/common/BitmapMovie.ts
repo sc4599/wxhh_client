@@ -17,6 +17,8 @@ class BitmapMovie extends egret.Bitmap {
 	private start: number = 1;
 	private _listener: Function;
 
+	private _frameCallback: Function;
+
 	public constructor() {
 		super();
 	}
@@ -24,6 +26,10 @@ class BitmapMovie extends egret.Bitmap {
 	/**传入值越大，播放越慢，帧数越少 */
 	public set speed(speed: number) {
 		this.delay = this.delay * speed;
+	}
+
+	public set frameCallback(callback: Function) {
+		this._frameCallback = callback;
 	}
 
 	/**
@@ -101,6 +107,7 @@ class BitmapMovie extends egret.Bitmap {
 		}
 		this.bitmapData = this.bmdList[this.curFrame];
 		this.curFrame++;
+		this._frameCallback && this._frameCallback();
 	}
 
 	/**

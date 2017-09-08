@@ -28,6 +28,8 @@ class LoginPanel extends BasePanel {
     }
 
     private onLogin() {
+        SoundManager.Instance.playEffect(SoundEffect.BiuDu);
+
         if (!this.nameEdit.text || !this.passEdit.text) {
             if (StaticConfig.Instance.testLogin) {
                 LoginLogic.Instance.login();
@@ -42,6 +44,8 @@ class LoginPanel extends BasePanel {
     }
 
     private onRegist() {
+        SoundManager.Instance.playEffect(SoundEffect.BiuDu);
+        
         this.hide();
         PanelManager.Instance.show(PanelConst.RegistPanel);
     }

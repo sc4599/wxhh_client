@@ -22,6 +22,8 @@ class HallScene extends BaseScene {
     }
 
     protected onEnable() {
+        SoundManager.Instance.playBGM(SoundBgm.HallScene);
+
         this.wxhhBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onWxhh, this);
         this.qysBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onQys, this);
         this.jdBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onRoom, this);
@@ -45,16 +47,22 @@ class HallScene extends BaseScene {
     }
 
     private onWxhh() {
+        SoundManager.Instance.playEffect(SoundEffect.Dudu);
+
         this.rightGro.getChildAt(0).visible = true;
         this.rightGro.getChildAt(1).visible = false;
     }
 
     private onQys() {
+        SoundManager.Instance.playEffect(SoundEffect.Dudu);
+
         this.rightGro.getChildAt(0).visible = false;
         this.rightGro.getChildAt(1).visible = true;
     }
 
     private onRoom(e: egret.Event) {
+        SoundManager.Instance.playEffect(SoundEffect.Dudu);
+
         var target = e.target;
         switch (target) {
             case this.jdBtn:
