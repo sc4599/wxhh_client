@@ -17,7 +17,7 @@ class BitmapMovie extends egret.Bitmap {
 	private start: number = 1;
 	private _listener: Function;
 
-	private _frameCallback: Function;
+	private _frameCallback: Function; //每秒回调
 
 	public constructor() {
 		super();

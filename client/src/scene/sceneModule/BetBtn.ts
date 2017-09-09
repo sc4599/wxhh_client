@@ -30,7 +30,6 @@ class BetBtn extends BaseUI {
             console.error("bet btn do not set listener");
             return;
         }
-        SoundManager.Instance.playEffect(SoundEffect.BetOrBegin);
 
         var target = e.target;
         var message;

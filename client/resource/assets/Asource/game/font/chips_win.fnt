@@ -1,0 +1,13 @@
+{"file":"chips_win.png","frames":{
+"0":{"x":0,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"1":{"x":24,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"2":{"x":48,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"3":{"x":72,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"4":{"x":96,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"5":{"x":120,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"6":{"x":144,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"7":{"x":168,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"8":{"x":192,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"9":{"x":216,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34},
+"+":{"x":240,"y":0,"w":24,"h":34,"offX":0,"offY":0,"sourceW":24,"sourceH":34}}
+}

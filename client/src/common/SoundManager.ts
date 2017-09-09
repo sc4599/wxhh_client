@@ -20,7 +20,13 @@ enum SoundEffect {
     "Clock",
     "Lose",
     "Win",
-    "StopBet"
+    "StopBet",
+    "spade",
+    "heart",
+    "club",
+    "diamond",
+    "jokerS",
+    "jokerB"
 }
 
 class SoundManager {
@@ -44,7 +50,13 @@ class SoundManager {
         "Clock_mp3",
         "Lose_mp3",
         "result_win_mp3",
-        "stop_add_chip_mp3"
+        "stop_add_chip_mp3",
+        "sound_poker_type_4_mp3",
+        "sound_poker_type_3_mp3",
+        "sound_poker_type_2_mp3",
+        "sound_poker_type_1_mp3",
+        "sound_poker_small_king_mp3",
+        "sound_poker_big_king_mp3"
     ]
 
     private static _instance: SoundManager;
@@ -57,6 +69,36 @@ class SoundManager {
 
     public constructor() {
         this._allowVoice = true;
+    }
+
+    public playCardSound(card:number[]) {
+        var type = card[0];
+        var soundConst = SoundEffect.spade;
+        switch (type) {
+            case 0:
+                soundConst = SoundEffect.spade;
+                break;
+            case 1:
+                soundConst = SoundEffect.heart;
+                break;
+            case 2:
+                soundConst = SoundEffect.club;
+                break;
+            case 3:
+                soundConst = SoundEffect.diamond;
+                break;
+            case 4:
+                if (card[1] == 1) {
+                    soundConst = SoundEffect.jokerB;
+                }
+                else {
+                    soundConst = SoundEffect.jokerS;
+                }
+                break;
+            default:
+                break;
+        }
+        this.playEffect(soundConst);
     }
 
 	/**
@@ -101,6 +143,7 @@ class SoundManager {
         if (bgm) {
             bgm.type = egret.Sound.MUSIC;
             this.bgmChannel = bgm.play(startTime, loops);
+            this.bgmChannel.volume = 0.5;
         }
     }
 

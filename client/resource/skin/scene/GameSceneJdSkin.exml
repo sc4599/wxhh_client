@@ -22,7 +22,7 @@
         </e:Skin>
         </e:skinName>
     </e:Button>
-	<e:Image source="btn_recharge_png" x="226" y="476"/>
+
 	<e:Button id="changeBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="13" y="630">
         <e:skinName>
         <e:Skin states="up,down,disabled">
@@ -47,4 +47,5 @@
 	<e:Group width="140" height="22" x="75" y="533">
 		<e:BitmapLabel id="diamondLab" y="0" text="123" font="diamond_num_fnt" scaleX="1" scaleY="1" horizontalCenter="-5"/>
 	</e:Group>
+	<e:BitmapLabel id="winLab" y="524.63" font="chips_win_fnt" text="+5446565" scaleX="0.1" scaleY="0.1" anchorOffsetX="96" anchorOffsetY="17" x="650"/>
 </e:Skin>

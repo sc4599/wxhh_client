@@ -13,6 +13,7 @@ class TimeMod extends BaseUI {
     private animaTime:BitmapMovie;
     private restTimer:egret.Timer;
     private resultTimer:egret.Timer;
+    private animaTimer:egret.Timer;
 
     public constructor() {
         super();
@@ -32,9 +33,6 @@ class TimeMod extends BaseUI {
         this.animaTime.completeListener = ()=>{
             this.openTimeOver();
         }
-        this.animaTime.frameCallback = ()=>{
-            this.animaTimeSound();
-        }
         this.animaGro.visible = false;
     }
 
@@ -52,6 +50,19 @@ class TimeMod extends BaseUI {
         this.animaGro.addChild(this.animaTime);
         this.animaGro.visible = true;
         this.animaTime.gotoAndPlay(1);
+
+        this.playAniSound();
+    }
+
+    private playAniSound() {
+        if (!this.animaTimer) {
+            this.animaTimer = new egret.Timer(1050, 3);
+            this.animaTimer.addEventListener(egret.TimerEvent.TIMER, ()=>{
+                this.animaTimeSound();
+            } , this);
+        }
+        this.animaTimer.reset();
+        this.animaTimer.start();
     }
 
     private animaTimeSound() {
@@ -85,6 +96,8 @@ class TimeMod extends BaseUI {
         this.restTime.text = (Number(this.restTime.text)-1) + "";
         if (this.restTimer.currentCount == 17) {
             SoundManager.Instance.playEffect(SoundEffect.StopBet);
+            RunConfig.Instance.betStatus = false;
+            (<GameSceneJd>SceneManager.Instance.getScene(SceneConst.GameSceneJd)).setBetModStatus(false);
 
             this.showAniTime();
         }

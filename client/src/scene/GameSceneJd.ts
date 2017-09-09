@@ -17,6 +17,7 @@ class GameSceneJd extends BaseScene {
     public starImg:eui.Image;
     public goldLab:eui.BitmapLabel;
     public diamondLab:eui.BitmapLabel;
+    public winLab:eui.BitmapLabel;
 
     private starMovie:BitmapMovie;
 
@@ -130,8 +131,6 @@ class GameSceneJd extends BaseScene {
     }
 
     private onContinue() {
-        SoundManager.Instance.playEffect(SoundEffect.ContinueBet);
-
         this.logic.continueBet();
     }
 
@@ -206,5 +205,16 @@ class GameSceneJd extends BaseScene {
         this.timeMod.showResultTime();
         this.betMod.setBtnEnabled(false);
         this.recordMod.addToList(data.card);
+    }
+
+    /**
+     * 外部设置押注按钮状态
+     */
+    public setBetModStatus(status: boolean) {
+        this.betMod.setBtnEnabled(status);
+    }
+
+    private showWinAnim(award: number) {
+
     }
 }

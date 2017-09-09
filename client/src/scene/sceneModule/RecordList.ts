@@ -66,7 +66,9 @@ class RecordList extends BaseUI {
         }
         var len = list.length;
         if (len < 1 || len > 48) {
+            this.curentList = [];
             this.removeAllCard();
+            return;
         }
         else {
             if (len - 1 == this.curentList.length) {

@@ -48,8 +48,10 @@ class GameLogicJd {
 
     public bet(type:number) {
         if (!RunConfig.Instance.betStatus) {
+            SoundManager.Instance.playEffect(SoundEffect.BetWarn);
             Tips.show("不在押注时间");
         }
+        SoundManager.Instance.playEffect(SoundEffect.BetOrBegin);
         var data = NetSend.S_10002;
         data.card_type = type;
         data.num = this.betNum;
@@ -59,6 +61,7 @@ class GameLogicJd {
 
     private onBet(data) {
         if (data.code != 1) {
+            SoundManager.Instance.playEffect(SoundEffect.BetWarn);
             var desc = "押注失败";
             if (data.info && data.info.desc) {
                 desc = data.info.desc;
@@ -74,7 +77,9 @@ class GameLogicJd {
 
     public continueBet() {
         if (!RunConfig.Instance.betStatus) {
+            SoundManager.Instance.playEffect(SoundEffect.BetWarn);
             Tips.show("不在押注时间");
+            return;
         }
         var continueFlag:boolean = false;
         for (var i = 0;i < this.lastList.length;i ++) {
@@ -84,9 +89,11 @@ class GameLogicJd {
             }
         }
         if (!continueFlag) {
+            SoundManager.Instance.playEffect(SoundEffect.BetWarn);
             Tips.show("无押注记录");
             return;
         }
+        SoundManager.Instance.playEffect(SoundEffect.ContinueBet);
         var data = NetSend.S_10005;
         data.user_id = UserInfo.Instance.userId;
         data.bet_list = this.lastList;
@@ -105,19 +112,31 @@ class GameLogicJd {
         
         RunConfig.Instance.betStatus = true;
         this.scene.showRoundStart();
+
+        SoundManager.Instance.playEffect(SoundEffect.BetOrBegin);
     }
 
     /**give award */
     private revAward(data) {
         console.log("revAward::", data);
         this.lastList = [];
-        for (var i in data.bet_info) {
-            this.lastList.push(data.bet_info[i] || 0)
-        }
+        var bet = data.bet_info;
+        this.lastList.push(bet.spade || 0);
+        this.lastList.push(bet.heart || 0);
+        this.lastList.push(bet.club || 0);
+        this.lastList.push(bet.diamond || 0);
+        this.lastList.push(bet.joker || 0);
 
         RunConfig.Instance.betStatus = false;
         this.scene.showResult(data);
         this.scene.refreshGold(data.gold);
+
+        SoundManager.Instance.playCardSound(data.card);
+        if (data.award > 0) {
+            setTimeout(function() {
+                SoundManager.Instance.playEffect(SoundEffect.Win);
+            }, 500);
+        }
     }
 
     public back() {
