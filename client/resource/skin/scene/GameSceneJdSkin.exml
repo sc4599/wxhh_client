@@ -47,5 +47,7 @@
 	<e:Group width="140" height="22" x="75" y="533">
 		<e:BitmapLabel id="diamondLab" y="0" text="123" font="diamond_num_fnt" scaleX="1" scaleY="1" horizontalCenter="-5"/>
 	</e:Group>
-	<e:BitmapLabel id="winLab" y="524.63" font="chips_win_fnt" text="+5446565" scaleX="0.1" scaleY="0.1" anchorOffsetX="96" anchorOffsetY="17" x="650"/>
+	<e:Group id="winGro" width="300" height="50" x="400" y="551.48" anchorOffsetX="150" anchorOffsetY="25" visible="false">
+		<e:BitmapLabel id="winLab" font="chips_win_fnt" text="+380" scaleX="1" scaleY="1" anchorOffsetX="96" anchorOffsetY="17" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
 </e:Skin>

@@ -12,6 +12,9 @@ class HallLogic {
         }
         return HallLogic._zInstance;
     }
+    public destroy() {
+        HallLogic._zInstance = null;
+    }
 
     /**游戏socket唯一实例 */
     public get socket() {
@@ -24,6 +27,7 @@ class HallLogic {
 
     private registSocket() {
         this.socket.register(NetHead.head_10000, this.onEnterJd, this);
+        this.socket.register(NetHead.head_5002, (data)=>{Utils.kickOff.call(data)}, this);
     }
 
     /**进入经典模式 */

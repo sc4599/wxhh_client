@@ -22,6 +22,9 @@ class GameLogicJd {
         }
         return GameLogicJd._zInstance;
     }
+    public destroy() {
+        GameLogicJd._zInstance = null;
+    }
 
     public constructor() {
         this.registSocket();
@@ -44,6 +47,7 @@ class GameLogicJd {
         this.socket.register(NetHead.head_10100, this.roundStart, this);
         this.socket.register(NetHead.head_10102, this.revAward, this);
         this.socket.register(NetHead.head_10005, this.onBet, this);
+        this.socket.register(NetHead.head_5002, (data)=>{Utils.kickOff.call(data)}, this);
     }
 
     public bet(type:number) {
@@ -135,7 +139,7 @@ class GameLogicJd {
         if (data.award > 0) {
             setTimeout(function() {
                 SoundManager.Instance.playEffect(SoundEffect.Win);
-            }, 500);
+            }, 1000);
         }
     }
 

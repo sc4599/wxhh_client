@@ -11,6 +11,19 @@ module Utils {
         messageBox.showMsg(msg, okCallback, thisObj, cancleCallback);
     }
 
+    export function kickOff(data) {
+        var str = "用户在其他设备登录";
+        if (data.desc) {
+            str = data.desc;
+        }
+        Utils.showMsg(data.desc, ()=>{
+            GameLogicJd.Instance.destroy();
+            HallLogic.Instance.destroy();
+            SceneManager.Instance.show(SceneConst.LoginScene);
+            LoginLogic.Instance.connectServer();
+        });
+    }
+
     export function deepCopy(obj: any):any {
         var newObj;
         if (typeof obj == "object") {

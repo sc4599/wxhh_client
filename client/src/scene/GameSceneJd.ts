@@ -18,6 +18,7 @@ class GameSceneJd extends BaseScene {
     public goldLab:eui.BitmapLabel;
     public diamondLab:eui.BitmapLabel;
     public winLab:eui.BitmapLabel;
+    public winGro:eui.Group;
 
     private starMovie:BitmapMovie;
 
@@ -205,6 +206,8 @@ class GameSceneJd extends BaseScene {
         this.timeMod.showResultTime();
         this.betMod.setBtnEnabled(false);
         this.recordMod.addToList(data.card);
+
+        this.showWinAnim(data.award, data.card);
     }
 
     /**
@@ -214,7 +217,30 @@ class GameSceneJd extends BaseScene {
         this.betMod.setBtnEnabled(status);
     }
 
-    private showWinAnim(award: number) {
+    private showWinAnim(award: number, card: number[]) {
+        setTimeout(()=>{
+            if (!award) {
+                return;
+            }
+            var posXList = [400, 550, 700, 850, 900];
+            
+            this.winGro.visible = true;
+            this.winGro.alpha = 1;
+            var originY = this.winGro.y = 500;
+            this.winGro.x = posXList[card[0]];
+            this.winGro.scaleX = 0.01;
+            this.winGro.scaleY = 0.01;
+            this.winLab.text = "+" + award;
 
+            egret.Tween.get(this.winGro)
+            .to({scaleX:5, scaleY:5, y: originY-20}, 300)
+            .to({scaleX:2, scaleY:2, y: originY-50}, 200)
+            .to({y: originY-70}, 2000)
+            .to({y: originY-100, alpha:0}, 200)
+            .call(()=>{
+                this.winGro.visible = false;
+                egret.Tween.removeTweens(this.winGro);
+            },this)
+        }, 1500, this);
     }
 }

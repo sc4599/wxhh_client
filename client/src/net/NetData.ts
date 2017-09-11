@@ -24,6 +24,8 @@ class NetHead {
     public static head_10102 = "10102";
     /**续压 */
     public static head_10005 = "10005";
+    /**被抢登 */
+    public static head_5002 = "5002";
 }
 
 class NetSend {
