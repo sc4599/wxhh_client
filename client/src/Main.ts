@@ -44,7 +44,7 @@ class Main extends eui.UILayer {
         //Config loading process interface
         //设置加载进度界面
         this.loadingView = new LoadingUI();
-        this.stage.addChild(this.loadingView);
+        // this.stage.addChild(this.loadingView);
         // initialize the Resource loading library
         //初始化Resource资源加载库
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
@@ -83,7 +83,7 @@ class Main extends eui.UILayer {
      */
     private onResourceLoadComplete(event:RES.ResourceEvent):void {
         if (event.groupName == "preload") {
-            this.stage.removeChild(this.loadingView);
+            //this.stage.removeChild(this.loadingView);
             RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
             RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
             RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
@@ -94,7 +94,7 @@ class Main extends eui.UILayer {
     }
     private createScene(){
         if(this.isThemeLoadEnd && this.isResourceLoadEnd){
-            this.startApp();
+            this.addBg();
         }
     }
     /**
@@ -124,10 +124,24 @@ class Main extends eui.UILayer {
             this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
         }
     }
+    private addBg() {
+        var bg = new eui.Image();
+        bg.source = "login_bg_png";
+        this.addChild(bg);
+
+        LoadingLock.Instance.addLock("加载资源中...");
+
+        RES.addEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.startApp, this);
+        RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
+        RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
+        RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
+        RES.loadGroup("all");
+    }
     /**
      * Create scene interface
      */
     protected startApp(): void {
+        LoadingLock.Instance.minusLock();
         if (StaticConfig.Instance.skipToGame) {
             SceneManager.Instance.show(SceneConst.GameSceneJd);
             return;

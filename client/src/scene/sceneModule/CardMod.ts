@@ -82,6 +82,10 @@ class CardMod extends BaseUI {
     }
 
     private refreshColor(color:number) {
+        var frame = 30;
+        if (color == 4) {
+            frame = 44;
+        }
         this.colorMovie.setImgBuffer(this.colorList[color],1,30);
     }
 

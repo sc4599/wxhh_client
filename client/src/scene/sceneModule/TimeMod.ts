@@ -37,9 +37,9 @@ class TimeMod extends BaseUI {
     }
 
     protected onEnable() {
-        this.addEventListener(egret.TouchEvent.TOUCH_TAP, ()=>{
-            this.showRestTime();
-        },this);
+        // this.addEventListener(egret.TouchEvent.TOUCH_TAP, ()=>{
+        //     this.showRestTime();
+        // },this);
     }
 
     protected onRemove() {

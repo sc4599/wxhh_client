@@ -17,7 +17,7 @@ class LayerManager {
     /**提示语层*/
     public tipLayer:eui.UILayer;
 
-    public static _instance: LayerManager;
+    private static _instance: LayerManager;
     public static get Instance():LayerManager {
         if (!LayerManager._instance) {
             LayerManager._instance = new LayerManager;
