@@ -27,7 +27,9 @@ class HallLogic {
 
     private registSocket() {
         this.socket.register(NetHead.head_10000, this.onEnterJd, this);
-        this.socket.register(NetHead.head_5002, (data)=>{Utils.kickOff.call(data)}, this);
+        this.socket.register(NetHead.head_5002, (data)=>{
+            Utils.kickOff(data);
+        }, this);
     }
 
     /**进入经典模式 */

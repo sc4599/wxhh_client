@@ -15,6 +15,8 @@ class HallScene extends BaseScene {
     public constructor() {
         super();
         this.skinName = "HallSceneSkin";
+        //注册大厅LOGIC
+        HallLogic.Instance;
 	}
 
     protected childrenCreated() {
