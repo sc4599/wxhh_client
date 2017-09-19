@@ -104,7 +104,14 @@ class GameSceneJd extends BaseScene {
             this.recordMod.showList(list);
         }
 
-         this.refreshGold(data.gold);
+        if (data.remain_bet_time) {
+            this.timeMod.showRestTime(data.remain_bet_time);
+        }
+        else if (data.remain_show_time) {
+            this.timeMod.showResultTime(data.remain_show_time);
+        }
+
+        this.refreshGold(data.gold);
     }
 
     private init() {
@@ -155,8 +162,8 @@ class GameSceneJd extends BaseScene {
         this.betLabMod.refreshAllLab(data);
     }
 
-    public refreshInLab(data) {
-        this.betLabMod.refreshInLab(data);
+    public refreshInLab(data, force:boolean = false) {
+        this.betLabMod.refreshInLab(data, force);
     }
 
     private initTimeMode() {

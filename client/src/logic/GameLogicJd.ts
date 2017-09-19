@@ -73,6 +73,8 @@ class GameLogicJd {
                 desc = data.info.desc;
             }
             Tips.show(desc);
+            this.scene.refreshInLab(data.info, true);
+            this.scene.refreshGold(data.info.gold); 
             return;
         }
         else {
@@ -160,6 +162,7 @@ class GameLogicJd {
         }
         else {
             this.scene.backToHall();
+            this.destroy();
         }
     }
 
