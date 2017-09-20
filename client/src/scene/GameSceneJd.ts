@@ -160,7 +160,7 @@ class GameSceneJd extends BaseScene {
     }
 
     public refreshAllLab(data, force:boolean = false) {
-        this.betLabMod.refreshAllLab(data);
+        this.betLabMod.refreshAllLab(data, force);
     }
 
     public refreshInLab(data, force:boolean = false) {

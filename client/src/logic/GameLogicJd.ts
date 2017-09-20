@@ -88,6 +88,7 @@ class GameLogicJd {
             Tips.show(desc);
             this.scene.refreshInLab(data.info, true);
             this.scene.refreshGold(data.info.gold); 
+            RunConfig.Instance.betVerify = true;
             return;
         }
         else {
