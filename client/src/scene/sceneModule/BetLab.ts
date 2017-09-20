@@ -27,10 +27,12 @@ class BetLab extends BaseUI {
         this.refreshInLab([0,0,0,0,0]);
     }
 
-    public refreshInLab(data: any) {
+    public refreshInLab(data: any, force:boolean=false) {
         var list = [];
+        var reset:boolean = false;
         if (data[0] || data[0] == 0) {
             list = data;
+            reset = true;
         }
         else {
             list.push(data.spade);
@@ -40,7 +42,14 @@ class BetLab extends BaseUI {
             list.push(data.joker);
         }
         for (var i = 0;i < 5;i ++) {
-            this.inList[i].text = list[i] + "";
+            if (!reset) {
+                if (Number(list[i]) > Number(this.inList[i].text) || force) {
+                    this.inList[i].text = list[i] + "";
+                }
+            }
+            else {
+                this.inList[i].text = list[i] + "";
+            }
         }
     }
 

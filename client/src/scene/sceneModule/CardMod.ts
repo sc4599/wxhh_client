@@ -86,7 +86,7 @@ class CardMod extends BaseUI {
         if (color == 4) {
             frame = 44;
         }
-        this.colorMovie.setImgBuffer(this.colorList[color],1,30);
+        this.colorMovie.setImgBuffer(this.colorList[color],1,frame);
     }
 
     public initGirlFlag() {
