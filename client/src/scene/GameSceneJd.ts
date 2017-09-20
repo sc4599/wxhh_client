@@ -104,11 +104,12 @@ class GameSceneJd extends BaseScene {
             this.recordMod.showList(list);
         }
 
-        if (data.remain_bet_time) {
-            this.timeMod.showRestTime(data.remain_bet_time);
+        if (data.remain_bet_time && data.is_can_bet) {
+            this.betMod.setBtnEnabled(true);
+            this.timeMod.showRestTime(data.remain_bet_time*1000);
         }
         else if (data.remain_show_time) {
-            this.timeMod.showResultTime(data.remain_show_time);
+            this.timeMod.showResultTime(data.remain_show_time*1000);
         }
 
         this.refreshGold(data.gold);
@@ -158,12 +159,17 @@ class GameSceneJd extends BaseScene {
         this.diamondLab.text = num + "";
     }
 
-    public refreshAllLab(data) {
+    public refreshAllLab(data, force:boolean = false) {
         this.betLabMod.refreshAllLab(data);
     }
 
     public refreshInLab(data, force:boolean = false) {
         this.betLabMod.refreshInLab(data, force);
+    }
+
+    public addLab(type:number, level:number) {
+        this.betLabMod.addInLab(type, level);
+        this.betLabMod.addAllLab(type, level);
     }
 
     private initTimeMode() {

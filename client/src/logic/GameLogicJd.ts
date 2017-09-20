@@ -23,6 +23,7 @@ class GameLogicJd {
         return GameLogicJd._zInstance;
     }
     public destroy() {
+        this.unRegistSocket();
         GameLogicJd._zInstance = null;
     }
 
@@ -52,6 +53,16 @@ class GameLogicJd {
         }, this);
     }
 
+    private unRegistSocket() {
+        this.socket.unRegister(NetHead.head_10001);
+        this.socket.unRegister(NetHead.head_10002);
+        this.socket.unRegister(NetHead.head_10101);
+        this.socket.unRegister(NetHead.head_10100);
+        this.socket.unRegister(NetHead.head_10102);
+        this.socket.unRegister(NetHead.head_10005);
+        this.socket.unRegister(NetHead.head_5002);
+    }
+
     public bet(type:number) {
         if (!RunConfig.Instance.betStatus) {
             SoundManager.Instance.playEffect(SoundEffect.BetWarn);
@@ -63,6 +74,8 @@ class GameLogicJd {
         data.num = this.betNum;
         data.user_id = UserInfo.Instance.userId;
         this.socket.send(NetHead.head_10002, data);
+
+        this.scene.addLab(type, this.betNum);
     }
 
     private onBet(data) {
@@ -78,7 +91,7 @@ class GameLogicJd {
             return;
         }
         else {
-            this.scene.refreshInLab(data.info);
+            this.scene.refreshInLab(data.info.player_bet_info);
             this.scene.refreshGold(data.info.gold); 
         }
     }
@@ -110,7 +123,8 @@ class GameLogicJd {
 
     private pullAllBet(data) {
         if (data) {
-            this.scene.refreshAllLab(data);
+            this.scene.refreshAllLab(data, RunConfig.Instance.betVerify);
+            RunConfig.Instance.betVerify = false;
         }
     }
 

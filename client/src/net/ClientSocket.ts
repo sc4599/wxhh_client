@@ -105,6 +105,7 @@ class ClientSocket {
         //socket断开，派发事件，重启游戏
         EventMananger.Instance.sendEvent(EventConst.SocketClose, this);
         this.timer.stop();
+        this.socketCloseError();
         // //如果无重连动作，派发关闭事件,并重置重连
         // if(this.bAllowReconnnect == false || (this.bAllowReconnnect && (this.curReconnectCount > this.reconnenctLimit))){
         //     this.resetReconnenct();
@@ -116,9 +117,20 @@ class ClientSocket {
     private onError(e: egret.IOErrorEvent): void {
         egret.log("socket error");
         this.timer.stop();
+        this.socketCloseError();
         if(this.tryReconnect() == false){
             EventMananger.Instance.sendEvent(EventConst.SocketIOError,this); 
         } 
+    }
+
+    //断线处理
+    private socketCloseError() {
+        Utils.showMsg("网络异常，请检查网络后重新登录", ()=>{
+            GameLogicJd.Instance.destroy();
+            HallLogic.Instance.destroy();
+            SceneManager.Instance.show(SceneConst.LoginScene);
+            LoginLogic.Instance.connectServer();
+        });
     }
 
     /**

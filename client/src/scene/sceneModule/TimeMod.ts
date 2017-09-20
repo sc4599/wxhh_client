@@ -43,7 +43,8 @@ class TimeMod extends BaseUI {
     }
 
     protected onRemove() {
-
+        this.restTimer && this.restTimer.stop();
+        this.resultTimer && this.resultTimer.stop();
     }
 
     private showAniTime() {
@@ -79,7 +80,7 @@ class TimeMod extends BaseUI {
 
         var count = Math.floor(time/1000);
         this.restTime.text = count + "";
-        if (!this.restTimer) {
+        if (!this.restTimer || (this.restTimer && this.restTimer.repeatCount < 20)) {
             this.restTimer = new egret.Timer(1050, count);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER, this.onRestTimer, this);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER_COMPLETE, this.onRestTimerOver, this);
@@ -113,7 +114,7 @@ class TimeMod extends BaseUI {
 
         var count = Math.floor(time/1000);
         this.resultTime.text = count + "";
-        if (!this.resultTimer) {
+        if (!this.resultTimer || (this.resultTimer && this.resultTimer.repeatCount < 10)) {
             this.resultTimer = new egret.Timer(1000, count);
             this.resultTimer.addEventListener(egret.TimerEvent.TIMER, this.onResultTimer, this);
             this.resultTimer.addEventListener(egret.TimerEvent.TIMER_COMPLETE, this.onResultTimerOver, this);
