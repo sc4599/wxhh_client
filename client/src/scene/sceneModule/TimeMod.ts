@@ -80,6 +80,7 @@ class TimeMod extends BaseUI {
 
         var count = Math.floor(time/1000);
         this.restTime.text = count + "";
+        this.restTimer && this.restTimer.stop();
         if (!this.restTimer || (this.restTimer && this.restTimer.repeatCount < 20)) {
             this.restTimer = new egret.Timer(1050, count);
             this.restTimer.addEventListener(egret.TimerEvent.TIMER, this.onRestTimer, this);
@@ -90,8 +91,8 @@ class TimeMod extends BaseUI {
     }
 
     private onRestTimer() {
-        if (Number(this.restTime.text) < 0) {
-            console.log("resultTime error");
+        if (Number(this.restTime.text) < 1) {
+            this.restTime.text = "0";
             return;
         }
         this.restTime.text = (Number(this.restTime.text)-1) + "";
@@ -114,6 +115,7 @@ class TimeMod extends BaseUI {
 
         var count = Math.floor(time/1000);
         this.resultTime.text = count + "";
+        this.resultTimer && this.resultTimer.stop();
         if (!this.resultTimer || (this.resultTimer && this.resultTimer.repeatCount < 10)) {
             this.resultTimer = new egret.Timer(1000, count);
             this.resultTimer.addEventListener(egret.TimerEvent.TIMER, this.onResultTimer, this);
@@ -124,8 +126,8 @@ class TimeMod extends BaseUI {
     }
 
     private onResultTimer() {
-        if (Number(this.resultTime.text) < 0) {
-            console.log("resultTime error");
+        if (Number(this.resultTime.text) < 1) {
+            this.resultTime.text = "0";
             return;
         }
         this.resultTime.text = (Number(this.resultTime.text)-1) + "";

@@ -42,6 +42,7 @@ class GameSceneJd extends BaseScene {
     }
 
     protected onEnable() {
+        this.logic;
         SoundManager.Instance.playBGM(SoundBgm.GameSceneJd);
 
         this.backBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onBack, this);
@@ -93,7 +94,7 @@ class GameSceneJd extends BaseScene {
 
         if (data.last_records) {
             var list = [];
-            if (data.last_records.length >= 48) {
+            if (data.last_records.length >= 52) {
                 for (var i = 0;i < 20;i++) {
                     list.push(data.last_records[data.last_records.length-i-1]);
                 }

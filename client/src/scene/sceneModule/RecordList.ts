@@ -65,7 +65,7 @@ class RecordList extends BaseUI {
             return;
         }
         var len = list.length;
-        if (len < 1 || len > 48) {
+        if (len < 1 || len > 52) {
             this.curentList = [];
             this.removeAllCard();
             return;
@@ -77,7 +77,7 @@ class RecordList extends BaseUI {
                 this.showAnima(len - 1);
             }
             else {
-                for (var i = 0; i < len - 1; i++) {
+                for (var i = 0; i < len; i++) {
                     var item: Array<number> = list[i];
                     this.addCard(item[0], item[1]);
                 }
